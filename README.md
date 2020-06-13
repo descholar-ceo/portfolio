@@ -1,9 +1,10 @@
 # Portfolio
 
-## Description
-This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/maintainability)](https://codeclimate.com/github/descholar-ceo/portfolio/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/test_coverage)](https://codeclimate.com/github/descholar-ceo/portfolio/test_coverage)
+
+## Description
+
+This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
 
 ## To run it locally
 ### A. Pre-requisites: 
