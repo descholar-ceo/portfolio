@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack -p --env production",
     "dev": "webpack-dev-server --env development --watch --open",
-    "coverage": "codeclimate-test-reporter < ./coverage/lcov.info",
+    "coverage": "codeclimate-test-reporter < ./coverage/lcov.info && codecov",
     "test": "jest"
   },
   "dependencies": {
