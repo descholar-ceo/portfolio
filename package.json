@@ -2,14 +2,19 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "This is my personal portfolio (MUGIRASE Emmanuel). It holds all of my professional information regarding",
-  "main": "app.js",
+  "main": "index.js",
   "repository": "https://github.com/descholar-ceo/portfolio.git",
   "author": "descholar",
   "license": "MIT",
   "dependencies": {
     "hint": "^6.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
-    "stylelint-scss": "3.17.x"
+    "stylelint-scss": "3.17.x",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }
