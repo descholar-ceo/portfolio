@@ -1,10 +1,10 @@
-import React,{Fragment} from 'react';
-import HelloComponent from '../components/HelloComponent'
+import React from 'react';
+import HomePage from '../components/HomePage';
 
 const App = () => (
-    <Fragment>
-        <HelloComponent/>
-    </Fragment>
+  <>
+    <HomePage />
+  </>
 );
 
 export default App;
