@@ -45,12 +45,10 @@ jobs:
       - name: Run tests
         run: yarn test
       - name: Coverage to Codeclimate
-        uses: MartinNuc/codeclimate-action@2
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_REPORTER_ID }}
           CODECLIMATE_REPO_TOKEN: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
-        with:
-          coverageLocations: ${{github.workspace}}/coverage/lcov.lcov
+        run: yarn run coverage
   
   # single-location:
   #   runs-on: ubuntu-latest
