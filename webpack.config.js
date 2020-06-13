@@ -16,6 +16,7 @@ module.exports = (env) => ({
     inline: true,
     port: process.env.PORT,
     contentBase: path.join(__dirname, 'build'),
+    historyApiFallback: true,
   },
 
   module: {

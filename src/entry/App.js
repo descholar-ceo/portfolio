@@ -1,8 +1,9 @@
 import React,{Fragment} from 'react';
+import HelloComponent from '../components/HelloComponent'
 
 const App = () => (
     <Fragment>
-        Hello world, welcome to descholar's portfolio
+        <HelloComponent/>
     </Fragment>
 );
 
