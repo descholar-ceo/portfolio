@@ -21,6 +21,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "codeclimate-test-reporter": "^0.5.1",
+    "codecov": "^3.7.0",
     "css-loader": "^3.5.3",
     "dotenv": "^8.2.0",
     "enzyme": "^3.11.0",
