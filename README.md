@@ -1,9 +1,10 @@
 # Portfolio
 
-## Description
-This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
+![Node.js CI](https://github.com/descholar-ceo/portfolio/workflows/Node.js%20CI/badge.svg)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/eca05d04d15347a898e20208809c63e9)](https://www.codacy.com/manual/descholar-ceo/portfolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=descholar-ceo/portfolio&amp;utm_campaign=Badge_Grade)  [![Maintainability](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/maintainability)](https://codeclimate.com/github/descholar-ceo/portfolio/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/test_coverage)](https://codeclimate.com/github/descholar-ceo/portfolio/test_coverage)  [![codecov](https://codecov.io/gh/descholar-ceo/portfolio/branch/develop/graph/badge.svg)](https://codecov.io/gh/descholar-ceo/portfolio)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/maintainability)](https://codeclimate.com/github/descholar-ceo/portfolio/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/test_coverage)](https://codeclimate.com/github/descholar-ceo/portfolio/test_coverage)
+## Description
+
+This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
 
 ## To run it locally
 ### A. Pre-requisites: 
