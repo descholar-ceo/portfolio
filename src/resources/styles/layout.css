@@ -1,0 +1,14 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  background: url("../img/slides/food-drink-book-books-coffee.jpg") no-repeat center;
+}
+
+/* .full-div{
+  background: url("../img/slides/food-drink-book-books-coffee.jpg") no-repeat center;
+  height: 100vh;
+  width: 100vw;
+} */
