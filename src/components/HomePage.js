@@ -13,7 +13,7 @@ class HomePage extends Component {
     return (
       <div className="full-div">
         <h1>{welcomeMessage}</h1>
-        {/* <img alt="foto" src={myPic} /> */}
+        <img alt="foto1" src="../assets/img/slides/slide-2.jpeg" />
       </div>
     );
   }
