@@ -1,0 +1,2 @@
+src/tests/*.js
+src/tests/__snapshot__/*.snap

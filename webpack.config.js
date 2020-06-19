@@ -8,7 +8,7 @@ module.exports = (env) => ({
   entry: './src/entry/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'descholar-portfolio.js',
+    filename: 'descholar.js',
     publicPath: '/',
   },
   mode: env ? 'production' : 'development',
@@ -16,7 +16,6 @@ module.exports = (env) => ({
     inline: true,
     port: process.env.PORT,
     contentBase: path.join(__dirname, 'build'),
-    historyApiFallback: true,
   },
 
   module: {
@@ -32,8 +31,27 @@ module.exports = (env) => ({
         loader: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpg|svg|gif|jpeg)?$/,
-        use: ['file-loader'],
+        test: /.(jpg|jpeg|png|gif|svg)$/,
+        use: ['file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              mozjpeg: {
+                progressive: true,
+                quality: 65,
+              },
+              // optipng.enabled: false will disable optipng
+              optipng: { enabled: false },
+              pngquant: {
+                quality: '65-90',
+                speed: 4,
+              },
+              gifsicle: { interlaced: false },
+              // the webp option will enable WEBP
+              webp: { quality: 75 },
+            },
+          },
+        ],
       },
     ],
   },
