@@ -1,15 +1,65 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
-body {
+body,
+html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
   margin: 0;
+  padding: 0;
 }
 
-.full-div {
-  height: 100vh;
+#root{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.portfolio-container {
+  height: 1000vh;
   width: 100vw;
+}
+
+.page-1-container{
+  height: 200vh;
+  width: 100%;
+  background: url("../img/slides/slide-1.jpg") center center fixed;
+  background-size: cover;
+}
+
+.page-1-content{
+  background-color: rgba(0,0,0,0.6);
+  height: 100vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  line-height: 50px;
+}
+
+.page-1-content button{
+  width: 6rem;
+  margin: 10rem auto;
+  height: 6rem;
+  background-color: rgb(81, 11, 95);
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  border: none;
+  border-radius: 150px;
+  outline: none;
+  cursor: pointer;
+  transition: linear 0.5s;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.page-1-content button:hover{
+  transform: scale(2.1);
+  background-color: rgba(81, 11, 95,0.5);
+  /* color: rgb(0, 0, 0); */
 }

@@ -1,3 +1,4 @@
-export default{
-    welcomeMessage:'Hello world, welcome to descholar\'s portfolio'
-}
+export default {
+  welcomeMessage: 'Hello there, I am happy to see you here',
+  myNames: 'My name is Mugirase Emmanuel',
+};
