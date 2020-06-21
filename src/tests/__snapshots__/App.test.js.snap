@@ -2,13 +2,50 @@
 
 exports[`App tests Will match the snapshot 1`] = `
 <div
-  className="full-div"
+  className="portfolio-container"
 >
-  <h1>
-    Hello world, welcome to descholar's portfolio
-  </h1>
   <div
-    className="myPic"
-  />
+    className="page-1-container"
+  >
+    <div
+      className="page-1-content"
+    >
+      <h1>
+        Hello there, I am happy to see you here
+      </h1>
+      <h2>
+        My name is Mugirase Emmanuel
+      </h2>
+      <button
+        type="button"
+      >
+        Start
+      </button>
+    </div>
+    <div
+      className="page-2-content"
+    >
+      <nav>
+        <span>
+          <a
+            href="#root"
+          >
+            Mugirase Emmanuel
+          </a>
+        </span>
+        <ul>
+          <li>
+            Home
+          </li>
+          <li>
+            Contact me
+          </li>
+          <li>
+            Settings
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </div>
 `;

@@ -1,6 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
+  margin: 0;
 }
 
 body,
@@ -12,26 +12,26 @@ html {
   padding: 0;
 }
 
-#root{
+#root {
   height: 100%;
   width: 100%;
   margin: 0;
 }
 
 .portfolio-container {
-  height: 1000vh;
+  height: 200vh;
   width: 100vw;
 }
 
-.page-1-container{
-  height: 200vh;
+.page-1-container {
+  height: 100%;
   width: 100%;
   background: url("../img/slides/slide-1.jpg") center center fixed;
   background-size: cover;
 }
 
-.page-1-content{
-  background-color: rgba(0,0,0,0.6);
+.page-1-content {
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100vh;
   width: 100%;
   color: rgb(255, 255, 255);
@@ -43,7 +43,7 @@ html {
   line-height: 50px;
 }
 
-.page-1-content button{
+.page-1-content button {
   width: 6rem;
   margin: 10rem auto;
   height: 6rem;
@@ -58,8 +58,16 @@ html {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
-.page-1-content button:hover{
-  transform: scale(2.1);
-  background-color: rgba(81, 11, 95,0.5);
-  /* color: rgb(0, 0, 0); */
+.page-1-content button:hover {
+  transform: scale(1.1);
+  background-color: rgba(81, 11, 95, 0.5);
+}
+
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(81, 11, 95);
 }

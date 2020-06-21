@@ -13,7 +13,7 @@ describe('App tests', () => {
 
   it('Will show the home page', () => {
     const homePage = mount(<HomePage />);
-    expect(homePage.text()).toEqual(customMsg.welcomeMessage);
+    expect(homePage.text()).toEqual(customMsg.welcomeMessage+customMsg.myNames+"StartMugirase EmmanuelHomeContact meSettings");
   });
 
   it('Will match the snapshot', () => {

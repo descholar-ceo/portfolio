@@ -15,15 +15,15 @@ class HomePage extends Component {
           <div className="page-1-content">
             <h1>{welcomeMessage}</h1>
             <h2>{myNames}</h2>
-            <button type="button">About me</button>
+            <button type="button">Start</button>
           </div>
           <div className="page-2-content">
             <nav>
-              <span />
+              <span><a href="#root">Mugirase Emmanuel</a></span>
               <ul>
-                <li />
-                <li />
-                <li />
+                <li>Home</li>
+                <li>Contact me</li>
+                <li>Settings</li>
               </ul>
             </nav>
           </div>
