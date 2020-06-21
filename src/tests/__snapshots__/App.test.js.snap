@@ -7,9 +7,8 @@ exports[`App tests Will match the snapshot 1`] = `
   <h1>
     Hello world, welcome to descholar's portfolio
   </h1>
-  <img
-    alt="foto1"
-    src="../assets/img/slides/slide-2.jpeg"
+  <div
+    className="myPic"
   />
 </div>
 `;
