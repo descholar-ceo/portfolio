@@ -11,7 +11,8 @@
     "dev": "webpack-dev-server --env development --watch --open",
     "coverage": "codeclimate-test-reporter < ./coverage/lcov.info && codecov",
     "test": "jest",
-    "start": "npm run build && node ./src/entry/server.js"
+    "start": "npm run build && node ./src/entry/server.js",
+    "stylelint": "npx stylelint **/*.{css,scss}"
   },
   "dependencies": {
     "@babel/core": "^7.10.2",
