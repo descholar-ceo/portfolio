@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
 import customMsg from '../utils/customMessages';
 
 class HomePage extends Component {
@@ -16,15 +17,23 @@ class HomePage extends Component {
           <h2>{myNames}</h2>
           <button type="button">Start</button>
         </div>
-        <div className="page-2-content">
+        <div className="portfolio-navigation">
           <nav>
-            <span><a href="#root">Mugirase Emmanuel</a></span>
+            <ul>
+              <li><FaTimesCircle className="close-btn" /></li>
+              <li><FaMinusCircle className="minimize-btn" /></li>
+              <li><FaPlusCircle className="maxmize-btn" /></li>
+            </ul>
             <ul>
               <li>Home</li>
               <li>Contact me</li>
               <li>Settings</li>
             </ul>
           </nav>
+          <main>
+            <aside>jjjjj</aside>
+            <section>kkkkk</section>
+          </main>
         </div>
       </div>
     );

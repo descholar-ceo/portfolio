@@ -58,8 +58,68 @@ html {
   background-color: rgba(81, 11, 95, 0.5);
 }
 
-nav {
-  height: 100px;
+.portfolio-navigation {
+  width: 95%;
+  height: 90vh;
+  margin: 2rem auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-navigation nav {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  height: 5%;
   width: 100%;
-  background-color: rgb(81, 11, 95);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portfolio-navigation ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  position: relative;
+  top: 0.5rem;
+}
+
+.portfolio-navigation li{
+  margin-right: 1rem;
+}
+
+.close-btn{
+  color: rgb(221, 32, 32);
+}
+
+.minimize-btn {
+  color: rgb(252, 194, 5);
+}
+
+.maxmize-btn {
+color: rgb(27, 151, 2);
+}
+
+main {
+  display: grid;
+  grid-template: 1fr / 1fr 4fr;
+  height: 95%;
+}
+
+aside, section {
+  height: 100%;
+  width: 100%;
+}
+
+aside {
+  background-color: rgba(97, 97, 97, 0.8);
+  border-bottom-left-radius:0.5rem;
+}
+
+section {
+  background-color: rgba(160, 158, 160, 0.8);
+  border-bottom-right-radius:0.5rem;
 }
