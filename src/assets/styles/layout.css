@@ -21,16 +21,11 @@ html {
 .portfolio-container {
   height: 200vh;
   width: 100vw;
-}
-
-.page-1-container {
-  height: 100%;
-  width: 100%;
   background: url("../img/slides/slide-1.jpg") center center fixed;
   background-size: cover;
 }
 
-.page-1-content {
+.welcome-screen {
   background-color: rgba(0, 0, 0, 0.6);
   height: 100vh;
   width: 100%;
@@ -43,7 +38,7 @@ html {
   line-height: 50px;
 }
 
-.page-1-content button {
+.welcome-screen button {
   width: 6rem;
   margin: 10rem auto;
   height: 6rem;
@@ -58,15 +53,12 @@ html {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
-.page-1-content button:hover {
+.welcome-screen button:hover {
   transform: scale(1.1);
   background-color: rgba(81, 11, 95, 0.5);
 }
 
 nav {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
   height: 100px;
   width: 100%;
   background-color: rgb(81, 11, 95);
