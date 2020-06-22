@@ -31,8 +31,15 @@ class HomePage extends Component {
             </ul>
           </nav>
           <main>
-            <aside>jjjjj</aside>
-            <section>kkkkk</section>
+            <aside>
+              <div>About me</div>
+              <div>Technical skills</div>
+              <div>Soft skills</div>
+              <div>My works</div>
+              <div>Education</div>
+              <div>My contacts</div>
+            </aside>
+            <section />
           </main>
         </div>
       </div>

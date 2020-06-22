@@ -87,11 +87,11 @@ html {
   top: 0.5rem;
 }
 
-.portfolio-navigation li{
+.portfolio-navigation li {
   margin-right: 1rem;
 }
 
-.close-btn{
+.close-btn {
   color: rgb(221, 32, 32);
 }
 
@@ -100,7 +100,7 @@ html {
 }
 
 .maxmize-btn {
-color: rgb(27, 151, 2);
+  color: rgb(27, 151, 2);
 }
 
 main {
@@ -109,17 +109,18 @@ main {
   height: 95%;
 }
 
-aside, section {
+aside,
+section {
   height: 100%;
   width: 100%;
 }
 
 aside {
   background-color: rgba(97, 97, 97, 0.8);
-  border-bottom-left-radius:0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 section {
   background-color: rgba(160, 158, 160, 0.8);
-  border-bottom-right-radius:0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
