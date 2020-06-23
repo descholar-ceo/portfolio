@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
 import customMsg from '../utils/customMessages';
+import myImg from '../assets/img/slides/slide-2.jpeg';
 
 class HomePage extends Component {
   constructor() {
@@ -18,7 +19,7 @@ class HomePage extends Component {
           <button type="button">Start</button>
         </div>
         <div className="portfolio-navigation">
-          <nav>
+          <nav className="top-nav">
             <ul>
               <li><FaTimesCircle className="close-btn" /></li>
               <li><FaMinusCircle className="minimize-btn" /></li>
@@ -31,15 +32,23 @@ class HomePage extends Component {
             </ul>
           </nav>
           <main>
-            <aside>
-              <div>About me</div>
-              <div>Technical skills</div>
-              <div>Soft skills</div>
-              <div>My works</div>
-              <div>Education</div>
-              <div>My contacts</div>
-            </aside>
-            <section />
+            <nav className="aside">
+              <div className="active">About me</div>
+              <div className="text-white">Technical skills</div>
+              <div className="text-white">Soft skills</div>
+              <div className="text-white">My works</div>
+              <div className="text-white">My experience</div>
+              <div className="text-white">Education</div>
+              <div className="text-white">Contact me</div>
+            </nav>
+            <section>
+              <div className="about-me-content text-white">
+                <div className="padding-1 about-me-content-text scroll-y" />
+                <div>
+                  <img src={myImg} />
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>

@@ -1,6 +1,12 @@
+:root {
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body,
@@ -16,6 +22,19 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 .portfolio-container {
@@ -67,13 +86,13 @@ html {
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.portfolio-navigation nav {
+.top-nav {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   height: 5%;
   width: 100%;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-color: rgb(215,222,246);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -92,15 +111,15 @@ html {
 }
 
 .close-btn {
-  color: rgb(221, 32, 32);
+  color: rgb(237,93,87);
 }
 
 .minimize-btn {
-  color: rgb(252, 194, 5);
+  color: rgb(249,192,61);
 }
 
 .maxmize-btn {
-  color: rgb(27, 151, 2);
+  color: rgb(100,206,66);
 }
 
 main {
@@ -109,18 +128,77 @@ main {
   height: 95%;
 }
 
-aside,
+.aside,
 section {
   height: 100%;
   width: 100%;
 }
 
-aside {
-  background-color: rgba(97, 97, 97, 0.8);
+.aside {
+  background-color:rgb(59,59,59);
   border-bottom-left-radius: 0.5rem;
 }
 
 section {
-  background-color: rgba(160, 158, 160, 0.8);
+  background-color: rgb(51, 51, 51);
+  border-bottom-right-radius:0.5rem;
+}
+
+.active {
+  background-color: rgba(72, 72, 72);
+  color: rgb(255, 255, 255);
+}
+
+.aside div {
+  margin-top: 0.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-left: 1rem;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.about-me-content{
+  width: 99%;
+  background-color: rgb(72, 72, 72);
+  margin-top: 0.2rem;
+  height: 98%;
+  display: grid;
+  grid-template: 1fr / 3fr 1fr;
+  padding: 1rem;
+  border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+.about-me-content p {
+  text-align: justify;
+  line-height: 25px;
+  margin-bottom: 1rem;
+}
+
+.about-me-content img {
+  width: 15rem;
+  height: 15rem;
+  margin: 50% auto;
+  border-radius: 300rem;
+}
+
+.about-me-content-text {
+  height: 80vh;
 }
