@@ -45,7 +45,7 @@ class HomePage extends Component {
               <div className="about-me-content text-white">
                 <div className="padding-1 about-me-content-text scroll-y" />
                 <div>
-                  <img src={myImg} />
+                  <img src={myImg} alt="descholar-pic" />
                 </div>
               </div>
             </section>
