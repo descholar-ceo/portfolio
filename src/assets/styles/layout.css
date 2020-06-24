@@ -27,11 +27,11 @@ html {
 body::-webkit-scrollbar {
   width: 1em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
 .portfolio-container {
   height: 200vh;
   width: 100vw;
-  background: url("../img/slides/slide-1.jpg") center center fixed;
+  background: url("../img/wall-paper.jpg") center center fixed;
   background-size: cover;
 }
 
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
   height: 5%;
   width: 100%;
   color: rgb(0, 0, 0);
-  background-color: rgb(215,222,246);
+  background-color: rgb(215, 222, 246);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,15 +111,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .close-btn {
-  color: rgb(237,93,87);
+  color: rgb(237, 93, 87);
 }
 
 .minimize-btn {
-  color: rgb(249,192,61);
+  color: rgb(249, 192, 61);
 }
 
 .maxmize-btn {
-  color: rgb(100,206,66);
+  color: rgb(100, 206, 66);
 }
 
 main {
@@ -135,13 +135,13 @@ section {
 }
 
 .aside {
-  background-color:rgb(59,59,59);
+  background-color: rgb(59, 59, 59);
   border-bottom-left-radius: 0.5rem;
 }
 
 section {
   background-color: rgb(51, 51, 51);
-  border-bottom-right-radius:0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .active {
@@ -174,7 +174,7 @@ section {
   overflow-y: scroll;
 }
 
-.about-me-content{
+.about-me-content {
   width: 99%;
   background-color: rgb(72, 72, 72);
   margin-top: 0.2rem;

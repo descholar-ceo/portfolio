@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
 import customMsg from '../utils/customMessages';
-import myImg from '../assets/img/slides/slide-2.jpeg';
+import myImg from '../assets/img/my-pic.jpg';
 
 class HomePage extends Component {
   constructor() {
@@ -43,7 +43,58 @@ class HomePage extends Component {
             </nav>
             <section>
               <div className="about-me-content text-white">
-                <div className="padding-1 about-me-content-text scroll-y" />
+                <div className="padding-1 about-me-content-text scroll-y">
+                  <p>
+                    Hi there and nice to meet you!
+                  </p>
+
+                  <p>
+                    I am MUGIRASE Emmanuel from Gisenyi, Rwanda. I have worke in health sector
+                    as an assistant clinical anaesthetist since 2014 till 2020, where I was an
+                    assistant of anesthesiology head of department in Gisenyi Hospital, I have
+                    worked as team coordinator, and anesthesia services providing for the entire
+                    time I spent there. I worked as an english teacher in Muduha Primary school
+                    in 2011. After all of those works I shifted my career to software engineering
+                    which I dreamt for years, I started software engineering in 2017, where I
+                    learned Java, Javascript(NodeJS, React), Android, Web technologies.
+                  </p>
+
+                  <p>
+                    I am confident enough to work on any health system app (desktop app,
+                    web app, entreprise app, or mobile app), I am an innovative man,
+                    who loves working with teams on daily basis.
+                  </p>
+
+                  <p>
+                    I graduated from University of Rwanda in College of Medicine
+                    and Health sciences in 2014, and in 2016 I went to Kigali independent
+                    University to study computer sciences, when I grabbed the basics of programming
+                    I dropped out before graduating because I wanted to focus muore on software
+                    engineering in a professiona way. Now I am ready to bring solutions using
+                    programming.
+                  </p>
+
+                  <p>
+                    Hard-working, focused, innovative and result-oriented mindset are the top
+                    four adjectives that best define my aptitude towards work.
+                  </p>
+
+                  <p>
+                    Co-workers see me as a team player who gives his best in sharing ideas,
+                    as well as creating and designing innovative experiences.
+                  </p>
+
+                  <p>
+                    Friends and family members see me as a nerd person, who invest most of his
+                    time for inventing new technology, and who will once move the world to the
+                    extend of changing people lifestyle.
+                  </p>
+
+                  <p>
+                    Either of them you choose to be, go ahead and get in touch with me!
+                  </p>
+
+                </div>
                 <div>
                   <img src={myImg} alt="descholar-pic" />
                 </div>
