@@ -135,7 +135,7 @@ section {
 }
 
 .aside {
-  background-color: rgb(59, 59, 59);
+  background-color: rgba(59, 59, 59, 0.1);
   border-bottom-left-radius: 0.5rem;
 }
 
