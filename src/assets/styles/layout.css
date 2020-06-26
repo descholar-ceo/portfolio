@@ -208,7 +208,35 @@ section {
   height: 80vh;
 }
 
-.technical-skills-conatiner img {
+.technical-skills-article {
+  width: 99%;
+  background-color: rgb(72, 72, 72);
+  margin-top: 0.2rem;
+  height: 98%;
+  padding: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.technical-skills-conatiner {
+  display: grid;
+  grid-template: 1rem 4fr / 1fr;
+  row-gap: 1rem;
+  height: 50%;
+  width: 100%;
+}
+
+.technical-skills-listing {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  column-gap: 0.5rem;
+}
+
+.technical-skills-listing img {
   height: 100px;
   width: 100px;
+  border-radius: 300rem;
 }
