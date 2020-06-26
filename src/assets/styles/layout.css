@@ -252,8 +252,15 @@ section {
   color: aliceblue;
 }
 
-.technical-skills-listing section div:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.tech-skill div:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.skill-node {
+  background-color: burlywood;
+}
+
+.skill-node div {
+  width: 98%;
+  background-color: brown;
 }
