@@ -105,67 +105,25 @@ class HomePage extends Component {
                   <div><h1>My Technical skills</h1></div>
                   <div className="technical-skills-listing">
                     <section>
-                      <h2>Backend</h2>
-                      <img src={backendIcon} alt="descholar's backend skills" />
                       <div>
-                        <span>NodeJS / Express</span>
-                        <span>92%</span>
+                        <img src={backendIcon} alt="descholar's backend skills" />
                       </div>
                       <div>
-                        <span>Java / Springboot</span>
-                        <span>60%</span>
+                        <h2>Backend</h2>
                       </div>
-                      <div>
-                        <span>Ruby / Ruby on Rails</span>
-                        <span>0.1%</span>
-                      </div>
-                    </section>
-                    <section>
-                      <h2>Frontend</h2>
-                      <img src={backendIcon} alt="descholar's backend skills" />
-                      <div>
-                        <span>NodeJS / Express</span>
-                        <span>92%</span>
-                      </div>
-                      <div>
-                        <span>Java / Springboot</span>
-                        <span>60%</span>
-                      </div>
-                      <div>
-                        <span>Ruby / Ruby on Rails</span>
-                        <span>0.1%</span>
-                      </div>
-                    </section>
-                    <section>
-                      <h2>Mobile development</h2>
-                      <img src={backendIcon} alt="descholar's backend skills" />
-                      <div>
-                        <span>NodeJS / Express</span>
-                        <span>92%</span>
-                      </div>
-                      <div>
-                        <span>Java / Springboot</span>
-                        <span>60%</span>
-                      </div>
-                      <div>
-                        <span>Ruby / Ruby on Rails</span>
-                        <span>0.1%</span>
-                      </div>
-                    </section>
-                    <section>
-                      <h2>DevOps</h2>
-                      <img src={backendIcon} alt="descholar's backend skills" />
-                      <div>
-                        <span>NodeJS / Express</span>
-                        <span>92%</span>
-                      </div>
-                      <div>
-                        <span>Java / Springboot</span>
-                        <span>60%</span>
-                      </div>
-                      <div>
-                        <span>Ruby / Ruby on Rails</span>
-                        <span>0.1%</span>
+                      <div className="tech-skill">
+                        <div>
+                          <span>NodeJS / Express</span>
+                          <span>92%</span>
+                        </div>
+                        <div>
+                          <span>Java / Springboot</span>
+                          <span>60%</span>
+                        </div>
+                        <div>
+                          <span>Ruby / Ruby on Rails</span>
+                          <span>0.1%</span>
+                        </div>
                       </div>
                     </section>
                   </div>
