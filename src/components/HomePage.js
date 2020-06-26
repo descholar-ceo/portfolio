@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
+import backendIcon from '../assets/img/backend-icon.jpg';
 
 class HomePage extends Component {
   constructor() {
@@ -42,7 +43,7 @@ class HomePage extends Component {
               <div className="text-white">Contact me</div>
             </nav>
             <section>
-              <div className="about-me-content text-white">
+              <article className="about-me-content text-white">
                 <div className="padding-1 about-me-content-text scroll-y">
                   <p>
                     Hi there and nice to meet you!
@@ -98,7 +99,30 @@ class HomePage extends Component {
                 <div>
                   <img src={myImg} alt="descholar-pic" />
                 </div>
-              </div>
+              </article>
+              <article>
+                <div className="technical-skills-conatiner">
+                  <h1>My Technical skills</h1>
+                  <div>
+                    <div>
+                      <h2>Backend</h2>
+                      <img src={backendIcon} alt="descholar's backend skills" />
+                      <div>
+                        <span>NodeJS / Express</span>
+                        <span>92%</span>
+                      </div>
+                      <div>
+                        <span>Java / Springboot</span>
+                        <span>60%</span>
+                      </div>
+                      <div>
+                        <span>Ruby / Ruby on Rails</span>
+                        <span>0.1%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </section>
           </main>
         </div>

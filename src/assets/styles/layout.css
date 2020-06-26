@@ -207,3 +207,8 @@ section {
 .about-me-content-text {
   height: 80vh;
 }
+
+.technical-skills-conatiner img {
+  height: 100px;
+  width: 100px;
+}
