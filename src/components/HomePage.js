@@ -75,8 +75,8 @@ class HomePage extends Component {
                   </p>
 
                   <p>
-                    Hard-working, focused, innovative and result-oriented mindset are the top
-                    four adjectives that best define my aptitude towards work.
+                    Hard-working, focused, innovative, result-oriented, and growth mindset are
+                    the top four adjectives that best define my aptitude towards work.
                   </p>
 
                   <p>
