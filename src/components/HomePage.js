@@ -101,20 +101,76 @@ class HomePage extends Component {
                 </div>
               </article>
               <article className="technical-skills-article">
-                <div className="technical-skills-conatiner">
-                  <div><h1>My Technical skills</h1></div>
+                <div className="technical-skills-container">
+                  <div className="technical-skills-container-head"><h1>My Technical skills</h1></div>
                   <div className="technical-skills-listing">
                     <section>
                       <div>
                         <img src={backendIcon} alt="descholar's backend skills" />
                       </div>
-                      <div>
+                      <div className="card-mid-head">
                         <h2>Backend</h2>
                       </div>
                       <div className="tech-skill">
-                        <div className="skill-node">
-                          <div className="skill-node-progress">NodeJS / Express</div>
-                          <div />
+                        <div className="skill">
+                          <div className="skill-node-progress skill-progress">NodeJS / Express</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-java-progress skill-progress">Java / Springboot</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-ruby-progress skill-progress">Ruby</div>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div>
+                        <img src={backendIcon} alt="descholar's backend skills" />
+                      </div>
+                      <div className="card-mid-head">
+                        <h2>Frontend</h2>
+                      </div>
+                      <div className="tech-skill">
+                        <div className="skill">
+                          <div className="skill-javascript-progress skill-progress">Javascript / React</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-html-progress skill-progress">HTML5 && CSS3</div>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div>
+                        <img src={backendIcon} alt="descholar's backend skills" />
+                      </div>
+                      <div className="card-mid-head">
+                        <h2>Mobile development</h2>
+                      </div>
+                      <div className="tech-skill">
+                        <div className="skill">
+                          <div className="skill-android-progress skill-progress">Android</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-react-native-progress skill-progress">React native && Java</div>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div>
+                        <img src={backendIcon} alt="descholar's backend skills" />
+                      </div>
+                      <div className="card-mid-head">
+                        <h2>Database</h2>
+                      </div>
+                      <div className="tech-skill">
+                        <div className="skill">
+                          <div className="skill-postgresql-progress skill-progress">PostgreSQL</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-mysql-progress skill-progress">MySQL</div>
+                        </div>
+                        <div className="skill">
+                          <div className="skill-sqlite-progress skill-progress">SQLite</div>
                         </div>
                       </div>
                     </section>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 :root {
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(0, 0, 0);
@@ -124,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 
 main {
   display: grid;
-  grid-template: 1fr / 1fr 4fr;
+  grid-template: 1fr / 0.5fr 5fr;
   height: 95%;
 }
 
@@ -211,6 +213,7 @@ section {
 .technical-skills-article {
   width: 99%;
   background-color: rgb(72, 72, 72);
+  color: aliceblue;
   margin-top: 0.2rem;
   height: 98%;
   padding: 1rem;
@@ -221,18 +224,23 @@ section {
   align-items: center;
 }
 
-.technical-skills-conatiner {
+.technical-skills-container {
   display: grid;
-  grid-template: 1rem 4fr / 1fr;
+  grid-template: 1fr 4fr / 1fr;
   row-gap: 1rem;
   height: 50%;
   width: 100%;
+}
+
+.technical-skills-container-head h1 {
+  text-align: center;
 }
 
 .technical-skills-listing {
   display: grid;
   grid-template: 1fr / repeat(4, 1fr);
   column-gap: 0.5rem;
+  cursor: grabbing;
 }
 
 .technical-skills-listing img {
@@ -249,25 +257,56 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  color: aliceblue;
 }
 
-.skill-node {
-  background-color: rgb(155, 152, 148);
+.card-mid-head h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.skill {
+  background-color: rgb(55, 58, 60);
   height: 1rem;
   border-radius: 1rem;
   width: 14rem;
   display: grid;
-  grid-template: 1fr / 5fr 0.2fr;
+  grid-template: 1fr / 6fr;
+  margin-bottom: 0.5rem;
 }
 
-.skill-node-progress {
-  width: 100%;
-  background-color: rgb(59, 4, 55);
+.skill-progress {
+  background-color: rgba(59, 4, 55, 0.603);
   text-align: center;
   height: 100%;
   font-size: 0.8rem;
   border-radius: 1rem;
+}
+
+.skill-node-progress {
+  width: 92%;
+}
+
+.skill-java-progress,
+.skill-sqlite-progress {
+  width: 70%;
+}
+
+.skill-ruby-progress {
+  width: 30%;
+}
+
+.skill-javascript-progress,
+.skill-html-progress,
+.skill-postgresql-progress {
+  width: 98%;
+}
+
+.skill-android-progress,
+.skill-mysql-progress {
+  width: 90%;
+}
+
+.skill-react-native-progress {
+  width: 82%;
 }
 
 .percent {
