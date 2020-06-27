@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 
 main {
   display: grid;
-  grid-template: 1fr / 0.5fr 5fr;
+  grid-template: 1fr / 1fr 5fr;
   height: 95%;
 }
 
@@ -219,7 +219,7 @@ section {
   padding: 1rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
 }

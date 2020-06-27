@@ -37,10 +37,8 @@ class HomePage extends Component {
               <div className="active">About me</div>
               <div className="text-white">Technical skills</div>
               <div className="text-white">Soft skills</div>
-              <div className="text-white">My works</div>
-              <div className="text-white">My experience</div>
-              <div className="text-white">Education</div>
-              <div className="text-white">Contact me</div>
+              <div className="text-white">Projects</div>
+              <div className="text-white">Contact</div>
             </nav>
             <section>
               <article className="about-me-content text-white">
