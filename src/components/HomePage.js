@@ -113,18 +113,8 @@ class HomePage extends Component {
                       </div>
                       <div className="tech-skill">
                         <div className="skill-node">
-                          <div>
-                            <span aria-valuemin="0" aria-valuenow="98" aria-valuemax="100">NodeJS / Express</span>
-                          </div>
-                        </div>
-                        <span>98%</span>
-                        <div>
-                          <span>Java / Springboot</span>
-                          <span>60%</span>
-                        </div>
-                        <div>
-                          <span>Ruby / Ruby on Rails</span>
-                          <span>0.1%</span>
+                          <div className="skill-node-progress">NodeJS / Express</div>
+                          <div />
                         </div>
                       </div>
                     </section>

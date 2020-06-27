@@ -252,15 +252,24 @@ section {
   color: aliceblue;
 }
 
-.tech-skill div:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
 .skill-node {
-  background-color: burlywood;
+  background-color: rgb(155, 152, 148);
+  height: 1rem;
+  border-radius: 1rem;
+  width: 14rem;
+  display: grid;
+  grid-template: 1fr / 5fr 0.2fr;
 }
 
-.skill-node div {
-  width: 98%;
-  background-color: brown;
+.skill-node-progress {
+  width: 100%;
+  background-color: rgb(59, 4, 55);
+  text-align: center;
+  height: 100%;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+}
+
+.percent {
+  font-size: 0.5rem;
 }
