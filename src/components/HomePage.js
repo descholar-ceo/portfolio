@@ -41,7 +41,8 @@ class HomePage extends Component {
               <div className="text-white">Contact</div>
             </nav>
             <section>
-              <article className="about-me-content text-white">
+              {/** About me */}
+              <article className="about-me-content text-white hidden-element">
                 <div className="padding-1 about-me-content-text scroll-y">
                   <p>
                     Hi there and nice to meet you!
@@ -98,7 +99,9 @@ class HomePage extends Component {
                   <img src={myImg} alt="descholar-pic" />
                 </div>
               </article>
-              <article className="technical-skills-article">
+
+              {/** My technical skills */}
+              <article className="technical-skills-article hidden-element">
                 <div className="technical-skills-container">
                   <div className="technical-skills-container-head"><h1>My Technical skills</h1></div>
                   <div className="technical-skills-listing">
@@ -169,6 +172,59 @@ class HomePage extends Component {
                         </div>
                         <div className="skill">
                           <div className="skill-sqlite-progress skill-progress">SQLite</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </article>
+
+              {/** My soft skills */}
+              <article className="soft-skills-article">
+                <div className="soft-skills-container">
+                  <div className="soft-skills-container-head"><h1>My soft skills</h1></div>
+                  <div className="soft-skills-listing">
+                    <section>
+                      <div className="homepage-book">
+                        <div>
+                          <div className="homepage-book-cover">
+                            <figure className="homepage-book-cover-front" />
+                            <figure className="homepage-book-cover-back">
+                              <div className="homepage-book-cover-back-text p-5">
+                                <div id="what-nezarecruit-title" />
+                                <div id="what-nezarecruit" />
+                              </div>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className="p-5">
+                          <div id="why-nezarecruit-title" />
+                          <div id="why-nezarecruit" />
+                        </div>
+                        <div>
+                          <span className="text-danger">sorry</span>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="homepage-book">
+                        <div>
+                          <div className="homepage-book-cover">
+                            <figure className="homepage-book-cover-front" />
+                            <figure className="homepage-book-cover-back">
+                              <div className="homepage-book-cover-back-text p-5">
+                                <div id="what-nezarecruit-title" />
+                                <div id="what-nezarecruit" />
+                              </div>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className="p-5">
+                          <div id="why-nezarecruit-title" />
+                          <div id="why-nezarecruit" />
+                        </div>
+                        <div>
+                          <span className="text-danger">sorry</span>
                         </div>
                       </div>
                     </section>

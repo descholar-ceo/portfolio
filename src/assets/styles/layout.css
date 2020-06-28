@@ -210,7 +210,8 @@ section {
   height: 80vh;
 }
 
-.technical-skills-article {
+.technical-skills-article,
+.soft-skills-article {
   width: 99%;
   background-color: rgb(72, 72, 72);
   color: aliceblue;
@@ -219,12 +220,13 @@ section {
   padding: 1rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  display: none;
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.technical-skills-container {
+.technical-skills-container,
+.soft-skills-container {
   display: grid;
   grid-template: 1fr 4fr / 1fr;
   row-gap: 1rem;
@@ -232,7 +234,8 @@ section {
   width: 100%;
 }
 
-.technical-skills-container-head h1 {
+.technical-skills-container-head h1,
+.soft-skills-container-head h1 {
   text-align: center;
 }
 
@@ -247,7 +250,7 @@ section {
   height: 100px;
   width: 100px;
   border-radius: 300rem;
-  margin-top: -5rem;
+  margin-top: -3rem;
 }
 
 .technical-skills-listing section {
@@ -311,4 +314,70 @@ section {
 
 .percent {
   font-size: 0.5rem;
+}
+
+/* softskills */
+.homepage-book {
+  width: 20rem;
+  height: 23rem;
+  padding-left: 5%;
+  background: rgb(75, 3, 75);
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  perspective: 100rem;
+  position: relative;
+  left: 20rem;
+  top: 10rem;
+}
+
+.homepage-book-cover {
+  width: 14rem;
+  height: 100%;
+  position: absolute;
+  left: 40px;
+  background-color: rgb(14, 3, 75);
+  transform: rotateY(-20deg);
+  transform-style: preserve-3d;
+  transform-origin: left;
+  transition: all 0.5s ease-in;
+}
+
+.homepage-book:hover .homepage-book-cover {
+  transform: rotateY(-180deg);
+}
+
+figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+figure.homepage-book-cover-front {
+  background: url('../img/wall-paper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+figure.homepage-book-cover-back {
+  background-color: rgb(52, 3, 71);
+  transform: rotateY(180deg);
+}
+
+.soft-skills-listing {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  column-gap: 0.5rem;
+  cursor: grabbing;
+}
+
+.soft-skills-listing section {
+  border: 3px solid grey;
+  border-radius: 0.5rem;
+}
+
+.hidden-element {
+  display: none;
 }
