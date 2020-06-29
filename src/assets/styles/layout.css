@@ -318,7 +318,7 @@ section {
 
 /* softskills */
 .homepage-book {
-  width: 25rem;
+  width: 26rem;
   height: 25rem;
   padding-left: 5%;
   background: rgb(75, 3, 75);
@@ -342,10 +342,10 @@ section {
   transition: all 0.5s ease-in;
 }
 
-.homepage-book:hover .homepage-book-cover {
+/* .homepage-book:hover .homepage-book-cover {
   transform: rotateY(-180deg);
   width: 8rem;
-}
+} */
 
 figure {
   margin: 0;
@@ -357,7 +357,7 @@ figure {
 }
 
 figure.homepage-book-cover-front {
-  background: url('../img/wall-paper.jpg');
+  background: linear-gradient(to bottom right, rgba(53, 1, 58, 0.7), rgba(0, 0, 0, 0.9)), url('../img/wall-paper.jpg');
   background-size: cover;
   background-position: center;
 }

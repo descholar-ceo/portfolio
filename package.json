@@ -12,7 +12,8 @@
     "coverage": "codeclimate-test-reporter < ./coverage/lcov.info && codecov",
     "test": "jest",
     "start": "npm run build && node ./src/entry/server.js",
-    "stylelint": "npx stylelint **/*.{css,scss}"
+    "stylelint": "npx stylelint **/*.{css,scss}",
+    "stylelint-fix": "npx stylelint **/*.{css,scss} --fix"
   },
   "dependencies": {
     "@babel/core": "^7.10.2",
