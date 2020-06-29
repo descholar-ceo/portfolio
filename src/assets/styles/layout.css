@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600&display=swap');
 
 :root {
   --color-white: rgb(255, 255, 255);
@@ -365,6 +366,27 @@ figure.homepage-book-cover-front {
 figure.homepage-book-cover-back {
   background-color: rgb(52, 3, 71);
   transform: rotateY(180deg);
+}
+
+figure h3 {
+  font-family: 'MuseoModerno', cursive;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+figure p {
+  line-height: 20px;
+  word-spacing: 0.1rem;
+}
+
+figure > div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+  justify-content: center;
+  height: 100%;
 }
 
 .soft-skills-listing {

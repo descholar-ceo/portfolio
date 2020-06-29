@@ -197,13 +197,13 @@ class HomePage extends Component {
                                   communication. I can give a good presentation, writing articles,
                                 </p>
 
-                                <h2>Languages spoken</h2>
+                                <h3>Languages spoken</h3>
                                 <p>I speak three languages:</p>
                                 <p>Kinyarwanda as my mother tongue</p>
                                 <p>English as a second language</p>
                                 <p>French as my third language</p>
 
-                                <h2>Communication based abilities</h2>
+                                <h3>Communication based abilities</h3>
                                 <p>
                                   I have great skills in mentoring, sharing knowledge,
                                   and giving constructive feedback.
