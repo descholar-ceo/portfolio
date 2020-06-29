@@ -228,9 +228,9 @@ section {
 .technical-skills-container,
 .soft-skills-container {
   display: grid;
-  grid-template: 1fr 4fr / 1fr;
+  grid-template: 0.2fr 4fr / 1fr;
   row-gap: 1rem;
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
@@ -318,8 +318,8 @@ section {
 
 /* softskills */
 .homepage-book {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   padding-left: 5%;
   background: rgb(75, 3, 75);
   color: rgb(255, 255, 255);
@@ -327,11 +327,11 @@ section {
   perspective: 100rem;
   position: relative;
   left: 20rem;
-  top: 10rem;
+  top: 13rem;
 }
 
 .homepage-book-cover {
-  width: 14rem;
+  width: 23rem;
   height: 100%;
   position: absolute;
   left: 40px;
@@ -344,6 +344,7 @@ section {
 
 .homepage-book:hover .homepage-book-cover {
   transform: rotateY(-180deg);
+  width: 8rem;
 }
 
 figure {
@@ -374,8 +375,7 @@ figure.homepage-book-cover-back {
 }
 
 .soft-skills-listing section {
-  border: 3px solid grey;
-  border-radius: 0.5rem;
+  background-color: inherit;
 }
 
 .hidden-element {
