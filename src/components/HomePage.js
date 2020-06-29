@@ -210,7 +210,7 @@ class HomePage extends Component {
                                 </p>
                                 <p>
                                   When it comes to communicating ideas, I can be a good instructor,
-                                  leader, or teacher
+                                  leader, or teacher!
                                 </p>
                               </div>
                             </figure>
