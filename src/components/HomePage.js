@@ -191,27 +191,9 @@ class HomePage extends Component {
                             <figure className="homepage-book-cover-front">
                               <div>
                                 <h3>Communication</h3>
-                                <p>
-                                  As communication is a key to success to any institution, I am able
-                                  to communicate my ideas clearly, through verbal or written
-                                  communication. I can give a good presentation, writing articles,
-                                </p>
-
-                                <h3>Languages spoken</h3>
-                                <p>I speak three languages:</p>
-                                <p>Kinyarwanda as my mother tongue</p>
-                                <p>English as a second language</p>
-                                <p>French as my third language</p>
-
-                                <h3>Communication based abilities</h3>
-                                <p>
-                                  I have great skills in mentoring, sharing knowledge,
-                                  and giving constructive feedback.
-                                </p>
-                                <p>
-                                  When it comes to communicating ideas, I can be a good instructor,
-                                  leader, or teacher!
-                                </p>
+                                <h3>Teamworking</h3>
+                                <h3>Leadership</h3>
+                                <h3>Time management</h3>
                               </div>
                             </figure>
                             <figure className="homepage-book-cover-back">
@@ -235,7 +217,14 @@ class HomePage extends Component {
                       <div className="homepage-book">
                         <div>
                           <div className="homepage-book-cover">
-                            <figure className="homepage-book-cover-front" />
+                            <figure className="homepage-book-cover-front">
+                              <div>
+                                <h3>Attention to details</h3>
+                                <h3>Problem solving</h3>
+                                <h3>Adaptability</h3>
+                                <h3>Work ethics</h3>
+                              </div>
+                            </figure>
                             <figure className="homepage-book-cover-back">
                               <div className="homepage-book-cover-back-text p-5">
                                 <div id="what-nezarecruit-title" />
@@ -249,7 +238,7 @@ class HomePage extends Component {
                           <div id="why-nezarecruit" />
                         </div>
                         <div>
-                          <span className="text-danger">sorry</span>
+                          {/* <span className="text-danger">sorry</span> */}
                         </div>
                       </div>
                     </section>
