@@ -180,7 +180,7 @@ class HomePage extends Component {
               </article>
 
               {/** My soft skills */}
-              <article className="soft-skills-article">
+              <article className="soft-skills-article hidden-element">
                 <div className="soft-skills-container">
                   <div className="soft-skills-container-head"><h1>My soft skills</h1></div>
                   <div className="soft-skills-listing">
@@ -241,6 +241,18 @@ class HomePage extends Component {
                           {/* <span className="text-danger">sorry</span> */}
                         </div>
                       </div>
+                    </section>
+                  </div>
+                </div>
+              </article>
+
+              {/** Projects */}
+              <article className="projects-article">
+                <div className="projects-container">
+                  <div className="projects-container-head"><h1>My projects</h1></div>
+                  <div className="projects-listing">
+                    <section>
+                      <div className="project-1">project 1</div>
                     </section>
                   </div>
                 </div>

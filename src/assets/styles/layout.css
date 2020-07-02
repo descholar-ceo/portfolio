@@ -212,7 +212,8 @@ section {
 }
 
 .technical-skills-article,
-.soft-skills-article {
+.soft-skills-article,
+.projects-article {
   width: 99%;
   background-color: rgb(72, 72, 72);
   color: aliceblue;
@@ -227,7 +228,8 @@ section {
 }
 
 .technical-skills-container,
-.soft-skills-container {
+.soft-skills-container,
+.projects-container {
   display: grid;
   grid-template: 0.2fr 4fr / 1fr;
   row-gap: 1rem;
@@ -236,8 +238,13 @@ section {
 }
 
 .technical-skills-container-head h1,
-.soft-skills-container-head h1 {
-  text-align: center;
+.soft-skills-container-head h1,
+.projects-container h1 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .technical-skills-listing {
@@ -402,4 +409,23 @@ figure > div {
 
 .hidden-element {
   display: none;
+}
+
+.project-1 {
+  background-color: black;
+  color: whitesmoke;
+  height: 200px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: linear 0.5s;
+}
+
+.project-1:after {
+  content: '';
+  background-color: yellow;
+}
+
+.project-1:hover {
+  transform: rotateY(180deg);
 }
