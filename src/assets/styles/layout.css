@@ -411,21 +411,38 @@ figure > div {
   display: none;
 }
 
-.project-1 {
-  background-color: black;
-  color: whitesmoke;
-  height: 200px;
-  width: 100px;
-  border-radius: 5px;
-  cursor: pointer;
+.project-3d-container {
+  height: 300px;
+  width: 200px;
+  perspective: 1000px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.project-card-container {
+  position: relative;
+  top: 5%;
+  height: 80%;
+  width: 100%;
   transition: linear 0.5s;
+  transform-style: preserve-3d;
 }
 
-.project-1:after {
-  content: '';
-  background-color: yellow;
+.project-card-container:hover {
+  transform: rotateY(75deg);
 }
 
-.project-1:hover {
+.project-card-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.project-card-front {
+  background-color: rgb(81, 11, 95);
+}
+
+.project-card-back {
+  background-color: rgb(14, 3, 75);
   transform: rotateY(180deg);
 }
