@@ -428,7 +428,7 @@ figure > div {
 }
 
 .project-card-container:hover {
-  transform: rotateY(75deg);
+  transform: rotateY(180deg);
 }
 
 .project-card-face {
@@ -439,7 +439,9 @@ figure > div {
 }
 
 .project-card-front {
-  background-color: rgb(81, 11, 95);
+  background: linear-gradient(to bottom right, rgba(81, 11, 95, 0.1), rgba(255, 0, 0, 0.1)), url('../img/project-screenshots/city-info-screenshot.png') center center no-repeat;
+  background-size: contain;
+  /* background-color: rgb(81, 11, 95); */
 }
 
 .project-card-back {

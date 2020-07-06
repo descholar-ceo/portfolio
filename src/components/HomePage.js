@@ -3,7 +3,7 @@ import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
 import backendIcon from '../assets/img/backend-icon.jpg';
-import cityInfoScreenshot from '../assets/img/project-screenshots/city-info-screenshot.png';
+// import cityInfoScreenshot from '../assets/img/project-screenshots/city-info-screenshot.png';
 
 class HomePage extends Component {
   constructor() {
@@ -256,7 +256,8 @@ class HomePage extends Component {
                       <div className="project-3d-container">
                         <div className="project-card-container">
                           <div className="project-card-face project-card-front">
-                            <img src={cityInfoScreenshot} alt="city info" title="city info project" />
+                            {/* <img className="project-profile" src={cityInfoScreenshot}
+                            alt="city info" title="city info project" /> */}
                           </div>
                           <div className="project-card-face project-card-back">Back</div>
                         </div>
