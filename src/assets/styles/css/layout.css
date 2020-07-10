@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 .portfolio-container {
   height: 200vh;
   width: 100vw;
-  background: url("../img/wall-paper.jpg") center center fixed;
+  background: url("../../img/wall-paper.jpg") center center fixed;
   background-size: cover;
 }
 
@@ -365,7 +365,7 @@ figure {
 }
 
 figure.homepage-book-cover-front {
-  background: linear-gradient(to bottom right, rgba(53, 1, 58, 0.7), rgba(0, 0, 0, 0.9)), url('../img/wall-paper.jpg');
+  background: linear-gradient(to bottom right, rgba(53, 1, 58, 0.7), rgba(0, 0, 0, 0.9)), url('../../img/wall-paper.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -439,7 +439,7 @@ figure > div {
 }
 
 .project-card-front {
-  background: linear-gradient(to bottom right, rgba(81, 11, 95, 0.1), rgba(255, 0, 0, 0.1)), url('../img/project-screenshots/city-info-screenshot.png') center center no-repeat;
+  background: linear-gradient(to bottom right, rgba(81, 11, 95, 0.1), rgba(255, 0, 0, 0.1)), url('../../img/project-screenshots/city-info-screenshot.png') center center no-repeat;
   background-size: contain;
   /* background-color: rgb(81, 11, 95); */
 }
