@@ -256,10 +256,17 @@ class HomePage extends Component {
                       <div className="project-3d-container">
                         <div className="project-card-container">
                           <div className="project-card-face project-card-front">
-                            {/* <img className="project-profile" src={cityInfoScreenshot}
-                            alt="city info" title="city info project" /> */}
+                            <div className="project-specs-container">
+                              <h3>Go to the project</h3>
+                              <div>
+                                <a href="https://github.com/descholar-ceo/city-info">Source codes</a>
+                                <a href="https://frosty-meitner-e44822.netlify.app/">Live version</a>
+                              </div>
+                            </div>
                           </div>
-                          <div className="project-card-face project-card-back">Back</div>
+                          <div className="project-card-face project-card-back">
+                            {/* the back face doesn't have any content yet */}
+                          </div>
                         </div>
                       </div>
                     </section>

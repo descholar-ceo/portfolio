@@ -427,9 +427,9 @@ figure > div {
   transform-style: preserve-3d;
 }
 
-.project-card-container:hover {
+/* .project-card-container:hover {
   transform: rotateY(180deg);
-}
+} */
 
 .project-card-face {
   position: absolute;

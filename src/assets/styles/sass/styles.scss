@@ -1,3 +1,11 @@
-body {
-    background-color: rgb(233, 12, 233);
+.project-specs-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    a{
+        position: absolute;
+        top: 10rem;
+        text-decoration: none;
+    }
 }
