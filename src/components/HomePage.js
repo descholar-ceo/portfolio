@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import {
-  FaMinusCircle,
-  FaPlusCircle,
-  FaTimesCircle,
   FaPhone,
   FaLinkedinIn,
   FaGithub,
@@ -19,6 +16,7 @@ import mediumIcon from '../assets/img/icons/medium.svg';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
 import backendIcon from '../assets/img/backend-icon.jpg';
+import handleBtns from '../handlers/handleAsideNav';
 
 class HomePage extends Component {
   constructor() {
@@ -39,6 +37,8 @@ class HomePage extends Component {
       projectsBtn: document.getElementById('projects-btn'),
       contactBtn: document.getElementById('contact-btn'),
     };
+
+    this.setState({ myElements: elts });
   }
 
   render() {
@@ -69,11 +69,51 @@ class HomePage extends Component {
           </nav>
           <main>
             <nav className="aside">
-              <button id="about-me-btn" type="button" className="active">About me</button>
-              <button id="technical-skills-btn" type="button" className="text-white dark-bg">Technical skills</button>
-              <button id="soft-skills-btn" type="button" className="text-white dark-bg">Soft skills</button>
-              <button id="projects-btn" type="button" className="text-white dark-bg">Projects</button>
-              <button id="contact-btn" type="button" className="text-white dark-bg">Contact me</button>
+              <button
+                id="about-me-btn"
+                type="button"
+                className="text-white active"
+                onClick={(event) => { handleBtns(this, event); }}
+              >
+                About me
+
+              </button>
+              <button
+                id="technical-skills-btn"
+                type="button"
+                className="text-white dark-bg"
+                onClick={(event) => { handleBtns(this, event); }}
+              >
+                Technical skills
+
+              </button>
+              <button
+                id="soft-skills-btn"
+                type="button"
+                className="text-white dark-bg"
+                onClick={(event) => { handleBtns(this, event); }}
+              >
+                Soft skills
+
+              </button>
+              <button
+                id="projects-btn"
+                type="button"
+                className="text-white dark-bg"
+                onClick={(event) => { handleBtns(this, event); }}
+              >
+                Projects
+
+              </button>
+              <button
+                id="contact-btn"
+                type="button"
+                className="text-white dark-bg"
+                onClick={(event) => { handleBtns(this, event); }}
+              >
+                Contact me
+
+              </button>
             </nav>
             <section>
               {/** About me */}
