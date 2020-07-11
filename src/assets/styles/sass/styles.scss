@@ -88,3 +88,11 @@
     color: rgb(0, 0, 0);
   }
 }
+
+.contact-listing {
+  display: grid;
+  grid-template: 1fr / repeat(5, 1fr);
+  place-items: center;
+  height: 60%;
+  width: 100%;
+}

@@ -249,6 +249,7 @@ figure p {
 .contact-container {
   display: grid;
   grid-template: 0.2fr 4fr / 1fr;
+  place-items: center;
   row-gap: 1rem;
   height: 100%;
   width: 100%;
