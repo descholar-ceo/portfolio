@@ -96,3 +96,23 @@
   height: 60%;
   width: 100%;
 }
+
+.contact-card {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  place-items: center;
+  background-color: rgb(39,42,43);
+  border-radius: 6px;
+  padding: 10px;
+
+  h1 {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+}

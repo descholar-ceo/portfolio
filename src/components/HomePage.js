@@ -1,5 +1,21 @@
 import React, { Component } from 'react';
-import { FaMinusCircle, FaPlusCircle, FaTimesCircle } from 'react-icons/fa';
+import {
+  FaMinusCircle,
+  FaPlusCircle,
+  FaTimesCircle,
+  FaPhone,
+  FaLinkedinIn,
+  FaGithub,
+  FaMedium,
+  FaSms,
+  FaTwitter,
+  FaPhoneAlt,
+} from 'react-icons/fa';
+import phoneIcon from '../assets/img/icons/telephone.svg';
+import emailIcon from '../assets/img/icons/email.svg';
+import githubIcon from '../assets/img/icons/github.svg';
+import twitterIcon from '../assets/img/icons/twitter.svg';
+import mediumIcon from '../assets/img/icons/medium.svg';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
 import backendIcon from '../assets/img/backend-icon.jpg';
@@ -312,7 +328,36 @@ class HomePage extends Component {
               <article className="contact-article">
                 <div className="contact-container">
                   <div className="contact-container-head"><h1>My contacts</h1></div>
-                  <div className="contact-listing" />
+                  <div className="contact-listing">
+                    <section>
+                      <div className="contact-card">
+                        <h1>Call me or send me an sms</h1>
+                        <div>
+                          <img src={phoneIcon} alt="descholar's phone" />
+                        </div>
+
+                        <a href="tel:+250782229462">
+                          <FaPhoneAlt />
+                          {' '}
+                          +250782229462
+                        </a>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="contact-card">
+                        <h1>Send me an email</h1>
+                        <div>
+                          <img src={emailIcon} alt="descholar's phone" />
+                        </div>
+
+                        <a href="mailto:emmamugira@gmail.com">
+                          <FaSms />
+                          {' '}
+                          emmamugira@fmail.com
+                        </a>
+                      </div>
+                    </section>
+                  </div>
                 </div>
               </article>
             </section>
