@@ -248,7 +248,7 @@ class HomePage extends Component {
               </article>
 
               {/** Projects */}
-              <article className="projects-article">
+              <article className="projects-article hidden-element">
                 <div className="projects-container">
                   <div className="projects-container-head"><h1>My projects</h1></div>
                   <div className="projects-listing">
@@ -305,6 +305,14 @@ class HomePage extends Component {
                       </div>
                     </section>
                   </div>
+                </div>
+              </article>
+
+              {/** contact */}
+              <article className="contact-article">
+                <div className="contact-container">
+                  <div className="contact-container-head"><h1>My contacts</h1></div>
+                  <div className="contact-listing" />
                 </div>
               </article>
             </section>

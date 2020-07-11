@@ -228,7 +228,8 @@ figure p {
 
 .technical-skills-article,
 .soft-skills-article,
-.projects-article {
+.projects-article,
+.contact-article {
   width: 99%;
   background-color: rgb(72, 72, 72);
   color: aliceblue;
@@ -244,7 +245,8 @@ figure p {
 
 .technical-skills-container,
 .soft-skills-container,
-.projects-container {
+.projects-container,
+.contact-container {
   display: grid;
   grid-template: 0.2fr 4fr / 1fr;
   row-gap: 1rem;
@@ -254,7 +256,8 @@ figure p {
 
 .technical-skills-container-head h1,
 .soft-skills-container-head h1,
-.projects-container h1 {
+.projects-container h1,
+.contact-container-head h1 {
   height: 100%;
   display: flex;
   flex-direction: row;
