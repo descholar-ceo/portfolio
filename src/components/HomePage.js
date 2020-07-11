@@ -9,12 +9,12 @@ import {
   FaMedium,
   FaSms,
   FaTwitter,
-  FaPhoneAlt,
 } from 'react-icons/fa';
 import phoneIcon from '../assets/img/icons/telephone.svg';
 import emailIcon from '../assets/img/icons/email.svg';
 import githubIcon from '../assets/img/icons/github.svg';
 import twitterIcon from '../assets/img/icons/twitter.svg';
+import linkedinIcon from '../assets/img/icons/linkedin.svg';
 import mediumIcon from '../assets/img/icons/medium.svg';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
@@ -337,7 +337,7 @@ class HomePage extends Component {
                         </div>
 
                         <a href="tel:+250782229462">
-                          <FaPhoneAlt />
+                          <FaPhone />
                           {' '}
                           +250782229462
                         </a>
@@ -353,7 +353,63 @@ class HomePage extends Component {
                         <a href="mailto:emmamugira@gmail.com">
                           <FaSms />
                           {' '}
-                          emmamugira@fmail.com
+                          emmamugira@gmail.com
+                        </a>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="contact-card">
+                        <h1>Find me on GitHub</h1>
+                        <div>
+                          <img src={githubIcon} alt="descholar's github" />
+                        </div>
+
+                        <a href="https://github.com/descholar-ceo">
+                          <FaGithub />
+                          {' '}
+                          descholar-ceo
+                        </a>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="contact-card">
+                        <h1>Find me on LinkedIn</h1>
+                        <div>
+                          <img src={linkedinIcon} alt="descholar's phone" />
+                        </div>
+
+                        <a href="https://www.linkedin.com/in/mugirase-emmanuel-a90b49143/">
+                          <FaLinkedinIn />
+                          {' '}
+                          Mugirase Emmanuel
+                        </a>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="contact-card">
+                        <h1>Find me on Twitter</h1>
+                        <div>
+                          <img src={twitterIcon} alt="descholar's twitter" />
+                        </div>
+
+                        <a href="https://twitter.com/descholar3">
+                          <FaTwitter />
+                          {' '}
+                          descholar
+                        </a>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="contact-card">
+                        <h1>Find me on Medium</h1>
+                        <div>
+                          <img src={mediumIcon} alt="descholar's medium" />
+                        </div>
+
+                        <a href="https://medium.com/@emmamugira">
+                          <FaMedium />
+                          {' '}
+                          Mugirase Emmanuel
                         </a>
                       </div>
                     </section>
