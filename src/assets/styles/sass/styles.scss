@@ -1,6 +1,14 @@
+.projects-listing {
+display: grid;
+grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+place-items: center;
+column-gap: 1rem;
+row-gap: 1rem;
+}
+
 .project-card {
-    height: 200px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 1px solid rgb(213, 213, 213);
     position: relative;
 
