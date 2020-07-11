@@ -152,6 +152,16 @@ section {
   color: rgb(255, 255, 255);
 }
 
+figure > div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+  justify-content: center;
+  height: 100%;
+}
+
 .aside div {
   margin-top: 0.2rem;
   padding: 1rem;
@@ -192,6 +202,11 @@ section {
   padding: 1rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+figure p {
+  line-height: 20px;
+  word-spacing: 0.1rem;
 }
 
 .about-me-content p {
@@ -379,21 +394,6 @@ figure h3 {
   font-family: 'MuseoModerno', cursive;
   text-align: center;
   margin-top: 1rem;
-}
-
-figure p {
-  line-height: 20px;
-  word-spacing: 0.1rem;
-}
-
-figure > div {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: justify;
-  justify-content: center;
-  height: 100%;
 }
 
 .soft-skills-listing {

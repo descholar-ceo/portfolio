@@ -1,87 +1,90 @@
 @mixin project-bg {
-    background-size: contain;
-    height: 90%;
-    width: 100%;
-    display: grid;
-    grid-template: 5fr 0.5fr / 1fr;
-    place-items: center;
+  background-size: contain;
+  height: 90%;
+  width: 100%;
+  display: grid;
+  grid-template: 5fr 0.5fr / 1fr;
+  place-items: center;
 }
 
 .projects-listing {
-display: grid;
-grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-place-items: center;
-column-gap: 1rem;
-row-gap: 1rem;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  place-items: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 .project-card {
-    height: 100%;
-    width: 100%;
-    border: 1px solid rgb(213, 213, 213);
-    position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(213, 213, 213);
+  position: relative;
 
-    h3 {
-        text-align: center;
-    }
+  h3 {
+    text-align: center;
+  }
 }
 
 .project-bg-city-info {
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/city-info-screenshot.png") center center no-repeat;
-    @include project-bg();
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/city-info-screenshot.png") center center no-repeat;
+
+  @include project-bg();
 }
 
 .project-bg-accommodation {
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/accommodation-screenshot.png") center center no-repeat;
-    @include project-bg();
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/accommodation-screenshot.png") center center no-repeat;
+
+  @include project-bg();
 }
 
 .project-bg-ph-store {
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/ph-store.png") center center no-repeat;
-    @include project-bg();
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/ph-store.png") center center no-repeat;
+
+  @include project-bg();
 }
 
 .card-grid-two-links {
-    display: grid;
-    grid-template: 1fr / repeat(2, 1fr);
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
 }
 
 .card-grid-one-link {
-    display: grid;
+  display: grid;
 }
 
 .project-card-links {
-    place-items: center;
-    column-gap: 1px;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 4px;
+  place-items: center;
+  column-gap: 1px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
 
-    a {
-        text-align: center;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        background-color: rgb(0, 0, 0);
-        border-radius: 15px;
-        border: 1px solid rgb(213, 213, 213);
-        padding: 4px;
-        font-size: 12px;
-        width: 100%;
-    }
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid rgb(213, 213, 213);
+    padding: 4px;
+    font-size: 12px;
+    width: 100%;
+  }
 }
 
 .project-specs {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 2px;
-    width: 90%;
-    height: 90%;
-    display: grid;
-    place-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  width: 90%;
+  height: 90%;
+  display: grid;
+  place-items: center;
 
-    p {
-        text-align: center;
-        width: 100%;
-        color: rgb(0, 0, 0);
-    }
+  p {
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
 }
