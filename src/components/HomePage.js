@@ -253,19 +253,17 @@ class HomePage extends Component {
                   <div className="projects-container-head"><h1>My projects</h1></div>
                   <div className="projects-listing">
                     <section>
-                      <div className="project-3d-container">
-                        <div className="project-card-container">
-                          <div className="project-card-face project-card-front">
-                            <div className="project-specs-container">
-                              <h3>Go to the project</h3>
-                              <div>
-                                <a href="https://github.com/descholar-ceo/city-info">Source codes</a>
-                                <a href="https://frosty-meitner-e44822.netlify.app/">Live version</a>
-                              </div>
-                            </div>
+                      <div className="project-card">
+                        <h3>CityInfo</h3>
+                        <div className="project-bg">
+                          <div className="project-specs">
+                            <p>
+                              An open source project which helps searching any U.S. Cities or State
+                            </p>
                           </div>
-                          <div className="project-card-face project-card-back">
-                            {/* the back face doesn't have any content yet */}
+                          <div className="project-card-links">
+                            <a href="https://github.com/descholar-ceo/city-info">Source codes</a>
+                            <a href="https://frosty-meitner-e44822.netlify.app/">Live link</a>
                           </div>
                         </div>
                       </div>
