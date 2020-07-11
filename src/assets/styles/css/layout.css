@@ -99,14 +99,13 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .portfolio-navigation ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  position: relative;
-  top: 0.5rem;
 }
 
 .portfolio-navigation li {
@@ -114,15 +113,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 .close-btn {
-  color: rgb(237, 93, 87);
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgb(237, 93, 87);
 }
 
 .minimize-btn {
-  color: rgb(249, 192, 61);
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgb(249, 192, 61);
 }
 
 .maxmize-btn {
-  color: rgb(100, 206, 66);
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgb(100, 206, 66);
 }
 
 main {
@@ -147,11 +155,6 @@ section {
   border-bottom-right-radius: 0.5rem;
 }
 
-.active {
-  background-color: rgba(72, 72, 72);
-  color: rgb(255, 255, 255);
-}
-
 figure > div {
   display: flex;
   flex-direction: column;
@@ -162,17 +165,29 @@ figure > div {
   height: 100%;
 }
 
-.aside div {
+.aside button {
+  width: 100%;
+  border: none;
   margin-top: 0.2rem;
   padding: 1rem;
   cursor: pointer;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   margin-left: 1rem;
+  outline: none;
 }
 
-.aside div:hover {
+.aside button:hover {
   background-color: rgba(72, 72, 72, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+.dark-bg {
+  background-color: rgb(24,26,27);
+}
+
+.active {
+  background-color: rgba(72, 72, 72);
   color: rgb(255, 255, 255);
 }
 

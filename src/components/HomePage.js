@@ -19,12 +19,26 @@ import mediumIcon from '../assets/img/icons/medium.svg';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
 import backendIcon from '../assets/img/backend-icon.jpg';
-// import cityInfoScreenshot from '../assets/img/project-screenshots/city-info-screenshot.png';
 
 class HomePage extends Component {
   constructor() {
     super();
     this.state = {};
+  }
+
+  componentDidMount = () => {
+    const elts = {
+      aboutMeArticle: document.getElementById('about-me-article'),
+      technicalSkillsArticle: document.getElementById('technical-skills-article'),
+      softSkillsArticle: document.getElementById('soft-skills-article'),
+      projectsArticle: document.getElementById('projects-article'),
+      contactArticle: document.getElementById('contact-article'),
+      aboutMeBtn: document.getElementById('about-me-btn'),
+      technicalSkillsBtn: document.getElementById('technical-skills-btn'),
+      softSkillsBtn: document.getElementById('soft-skills-btn'),
+      projectsBtn: document.getElementById('projects-btn'),
+      contactBtn: document.getElementById('contact-btn'),
+    };
   }
 
   render() {
@@ -39,27 +53,31 @@ class HomePage extends Component {
         <div className="portfolio-navigation">
           <nav className="top-nav">
             <ul>
-              <li><FaTimesCircle className="close-btn" /></li>
-              <li><FaMinusCircle className="minimize-btn" /></li>
-              <li><FaPlusCircle className="maxmize-btn" /></li>
+              <li><div className="close-btn" /></li>
+              <li><div className="minimize-btn" /></li>
+              <li><div className="maxmize-btn" /></li>
             </ul>
             <ul>
-              <li>Home</li>
-              <li>Contact me</li>
-              <li>Settings</li>
+              {/* <li>Home</li> */}
+              {/* <li>
+                <button type="button" className="nav-contact-btn" id="nav-contact-btn">
+                  Contact me
+                </button>
+              </li> */}
+              {/* <li>Settings</li> */}
             </ul>
           </nav>
           <main>
             <nav className="aside">
-              <div className="active">About me</div>
-              <div className="text-white">Technical skills</div>
-              <div className="text-white">Soft skills</div>
-              <div className="text-white">Projects</div>
-              <div className="text-white">Contact</div>
+              <button id="about-me-btn" type="button" className="active">About me</button>
+              <button id="technical-skills-btn" type="button" className="text-white dark-bg">Technical skills</button>
+              <button id="soft-skills-btn" type="button" className="text-white dark-bg">Soft skills</button>
+              <button id="projects-btn" type="button" className="text-white dark-bg">Projects</button>
+              <button id="contact-btn" type="button" className="text-white dark-bg">Contact me</button>
             </nav>
             <section>
               {/** About me */}
-              <article className="about-me-content text-white hidden-element">
+              <article id="about-me-article" className="about-me-content text-white">
                 <div className="padding-1 about-me-content-text scroll-y">
                   <p>
                     Hi there and nice to meet you!
@@ -118,7 +136,7 @@ class HomePage extends Component {
               </article>
 
               {/** My technical skills */}
-              <article className="technical-skills-article hidden-element">
+              <article id="technical-skills-article" className="technical-skills-article hidden-element">
                 <div className="technical-skills-container">
                   <div className="technical-skills-container-head"><h1>My Technical skills</h1></div>
                   <div className="technical-skills-listing">
@@ -197,7 +215,7 @@ class HomePage extends Component {
               </article>
 
               {/** My soft skills */}
-              <article className="soft-skills-article hidden-element">
+              <article id="soft-skills-article" className="soft-skills-article hidden-element">
                 <div className="soft-skills-container">
                   <div className="soft-skills-container-head"><h1>My soft skills</h1></div>
                   <div className="soft-skills-listing">
@@ -264,7 +282,7 @@ class HomePage extends Component {
               </article>
 
               {/** Projects */}
-              <article className="projects-article hidden-element">
+              <article id="projects-article" className="projects-article hidden-element">
                 <div className="projects-container">
                   <div className="projects-container-head"><h1>My projects</h1></div>
                   <div className="projects-listing">
@@ -325,9 +343,9 @@ class HomePage extends Component {
               </article>
 
               {/** contact */}
-              <article className="contact-article">
+              <article id="contact-article" className="contact-article hidden-element">
                 <div className="contact-container">
-                  <div className="contact-container-head"><h1>My contacts</h1></div>
+                  <div className="contact-container-head"><h1>I would like to hear from you</h1></div>
                   <div className="contact-listing">
                     <section>
                       <div className="contact-card">
