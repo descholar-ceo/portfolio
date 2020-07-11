@@ -1,3 +1,12 @@
+@mixin project-bg {
+    background-size: contain;
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template: 5fr 0.5fr / 1fr;
+    place-items: center;
+}
+
 .projects-listing {
 display: grid;
 grid-template: repeat(2, 1fr) / repeat(3, 1fr);
@@ -17,19 +26,31 @@ row-gap: 1rem;
     }
 }
 
-.project-bg {
+.project-bg-city-info {
     background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/city-info-screenshot.png") center center no-repeat;
-    background-size: contain;
-    height: 90%;
-    width: 100%;
+    @include project-bg();
+}
+
+.project-bg-accommodation {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/accommodation-screenshot.png") center center no-repeat;
+    @include project-bg();
+}
+
+.project-bg-ph-store {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7), rgba(0, 0, 0, 0.7), rgba(245, 241, 4, 0.7)), url("../../img/project-screenshots/ph-store.png") center center no-repeat;
+    @include project-bg();
+}
+
+.card-grid-two-links {
     display: grid;
-    grid-template: 5fr 0.5fr / 1fr;
-    place-items: center;
+    grid-template: 1fr / repeat(2, 1fr);
+}
+
+.card-grid-one-link {
+    display: grid;
 }
 
 .project-card-links {
-    display: grid;
-    grid-template: 1fr / repeat(2, 1fr);
     place-items: center;
     column-gap: 1px;
     height: 100%;
@@ -51,7 +72,7 @@ row-gap: 1rem;
 }
 
 .project-specs {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2px;
     width: 90%;
     height: 90%;

@@ -255,15 +255,51 @@ class HomePage extends Component {
                     <section>
                       <div className="project-card">
                         <h3>CityInfo</h3>
-                        <div className="project-bg">
+                        <div className="project-bg-city-info">
                           <div className="project-specs">
                             <p>
                               An open source project which helps searching any U.S. Cities or State
                             </p>
                           </div>
-                          <div className="project-card-links">
-                            <a href="https://github.com/descholar-ceo/city-info">Source codes</a>
-                            <a href="https://frosty-meitner-e44822.netlify.app/">Live link</a>
+                          <div className="project-card-links card-grid-two-links">
+                            <a href="https://github.com/descholar-ceo/city-info" rel="noreferrer" target="_blank">Source codes</a>
+                            <a href="https://frosty-meitner-e44822.netlify.app/" rel="noreferrer" target="_blank">Live link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="project-card">
+                        <h3>AccommodationDirectory</h3>
+                        <div className="project-bg-accommodation">
+                          <div className="project-specs">
+                            <p>
+                              A capstone project after completing HTML5 && CSS3,
+                              for the design of patashule application
+                            </p>
+                          </div>
+                          <div className="project-card-links card-grid-two-links">
+                            <a href="https://github.com/descholar-ceo/accommodations-directory" rel="noreferrer" target="_blank">Source codes</a>
+                            <a href="https://xenodochial-volhard-3da12d.netlify.app/" rel="noreferrer" target="_blank">Live link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <section>
+                      <div className="project-card">
+                        <h3>Phone History Store</h3>
+                        <div className="project-bg-ph-store">
+                          <div className="project-specs">
+                            <p>
+                              An android application for storing phone data, calls, and sms logs
+                            </p>
+                          </div>
+                          <div className="project-card-links card-grid-one-link">
+                            <a href="https://apkcombo.com/phone-history-store-v7/com.scholar.emmanuel_de_scholar.phonehistorystore/" rel="noreferrer" target="_blank">
+                              See it and download apk from
+                              {' '}
+                              <strong>apkcombo</strong>
+                            </a>
                           </div>
                         </div>
                       </div>
