@@ -1,4 +1,6 @@
-const handleBtns = (component, event) => {
+// import { animateScroll as scroll } from 'react-scroll';
+
+export const handleAsideBtns = (component, event) => {
   const { id } = event.target;
   const {
     aboutMeArticle,
@@ -141,4 +143,11 @@ const handleBtns = (component, event) => {
   }
 };
 
-export default handleBtns;
+export const handleStartBtn = () => {
+  // scroll.scrollToBottom();
+  window.scrollTo({
+    top: 900,
+    left: 0,
+    behavior: 'smooth',
+  });
+};

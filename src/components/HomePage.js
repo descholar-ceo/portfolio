@@ -16,12 +16,15 @@ import mediumIcon from '../assets/img/icons/medium.svg';
 import customMsg from '../utils/customMessages';
 import myImg from '../assets/img/my-pic.jpg';
 import backendIcon from '../assets/img/backend-icon.jpg';
-import handleBtns from '../handlers/handleAsideNav';
+import { handleAsideBtns } from '../handlers/handleBtns';
 
 class HomePage extends Component {
-  constructor() {
-    super();
+  // handleStartBtn = handleStartBtn;
+
+  constructor(props) {
+    super(props);
     this.state = {};
+    // this.handleStartBtn = this.handleStartBtn.bind(this);
   }
 
   componentDidMount = () => {
@@ -42,15 +45,23 @@ class HomePage extends Component {
   }
 
   render() {
-    const { welcomeMessage, myNames } = customMsg;
+    const { welcomeMessage, myNames, guideMsg } = customMsg;
     return (
       <div className="portfolio-container">
         <div className="welcome-screen">
           <h1>{welcomeMessage}</h1>
           <h2>{myNames}</h2>
-          <button type="button">Start</button>
+          <h3>{guideMsg}</h3>
+          {/* <button
+            className="start-btn"
+            onClick={this.handleStartBtn}
+            type="button"
+          >
+            Start
+
+          </button> */}
         </div>
-        <div className="portfolio-navigation">
+        <div id="portfolio-navigation" className="portfolio-navigation">
           <nav className="top-nav">
             <ul>
               <li><div className="close-btn" /></li>
@@ -73,7 +84,7 @@ class HomePage extends Component {
                 id="about-me-btn"
                 type="button"
                 className="text-white active"
-                onClick={(event) => { handleBtns(this, event); }}
+                onClick={(event) => { handleAsideBtns(this, event); }}
               >
                 About me
 
@@ -82,7 +93,7 @@ class HomePage extends Component {
                 id="technical-skills-btn"
                 type="button"
                 className="text-white dark-bg"
-                onClick={(event) => { handleBtns(this, event); }}
+                onClick={(event) => { handleAsideBtns(this, event); }}
               >
                 Technical skills
 
@@ -91,7 +102,7 @@ class HomePage extends Component {
                 id="soft-skills-btn"
                 type="button"
                 className="text-white dark-bg"
-                onClick={(event) => { handleBtns(this, event); }}
+                onClick={(event) => { handleAsideBtns(this, event); }}
               >
                 Soft skills
 
@@ -100,7 +111,7 @@ class HomePage extends Component {
                 id="projects-btn"
                 type="button"
                 className="text-white dark-bg"
-                onClick={(event) => { handleBtns(this, event); }}
+                onClick={(event) => { handleAsideBtns(this, event); }}
               >
                 Projects
 
@@ -109,7 +120,7 @@ class HomePage extends Component {
                 id="contact-btn"
                 type="button"
                 className="text-white dark-bg"
-                onClick={(event) => { handleBtns(this, event); }}
+                onClick={(event) => { handleAsideBtns(this, event); }}
               >
                 Contact me
 
