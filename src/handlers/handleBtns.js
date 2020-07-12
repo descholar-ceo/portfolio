@@ -143,11 +143,13 @@ export const handleAsideBtns = (component, event) => {
   }
 };
 
-export const handleStartBtn = () => {
-  // scroll.scrollToBottom();
-  window.scrollTo({
-    top: 900,
-    left: 0,
-    behavior: 'smooth',
-  });
-};
+// export const handleStartBtn = () => {
+//   // scroll.scrollToBottom();
+//   window.scrollTo({
+//     top: 900,
+//     left: 0,
+//     behavior: 'smooth',
+//   });
+// };
+
+export const descholar = () => {};
