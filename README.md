@@ -24,7 +24,8 @@ This project is my portfolio, it shows all of the details regarding my professio
 1. [Webpack](https://webpack.js.org/)
 
 ## Deployments
-[https://descholar.herokuapp.com/](https://descholar.herokuapp.com/)
+* Production link: [https://descholar.herokuapp.com/](https://descholar.herokuapp.com/)
+* Staging link: [https://descholar-portfolio.herokuapp.com/](https://descholar-portfolio.herokuapp.com/)
 
 ## Tools
 * [Webpack](https://webpack.js.org/) for bundling
