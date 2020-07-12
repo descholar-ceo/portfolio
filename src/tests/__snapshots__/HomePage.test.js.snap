@@ -1,0 +1,880 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage tests Will match the homepage snapshot 1`] = `
+<div
+  className="portfolio-container"
+>
+  <div
+    className="welcome-screen"
+  >
+    <h1>
+      Hello there, I am happy to see you here
+    </h1>
+    <h2>
+      I am Mugirase Emmanuel
+    </h2>
+    <h3>
+      Please scroll down to see my portfolio
+    </h3>
+  </div>
+  <div
+    className="portfolio-navigation"
+    id="portfolio-navigation"
+  >
+    <nav
+      className="top-nav"
+    >
+      <ul>
+        <li>
+          <div
+            className="close-btn"
+          />
+        </li>
+        <li>
+          <div
+            className="minimize-btn"
+          />
+        </li>
+        <li>
+          <div
+            className="maxmize-btn"
+          />
+        </li>
+      </ul>
+      <ul />
+    </nav>
+    <main>
+      <nav
+        className="aside"
+      >
+        <button
+          className="text-white active"
+          id="about-me-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          About me
+        </button>
+        <button
+          className="text-white dark-bg"
+          id="technical-skills-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Technical skills
+        </button>
+        <button
+          className="text-white dark-bg"
+          id="soft-skills-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Soft skills
+        </button>
+        <button
+          className="text-white dark-bg"
+          id="projects-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Projects
+        </button>
+        <button
+          className="text-white dark-bg"
+          id="contact-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Contact me
+        </button>
+      </nav>
+      <section>
+        <article
+          className="about-me-content text-white"
+          id="about-me-article"
+        >
+          <div
+            className="padding-1 about-me-content-text scroll-y"
+          >
+            <p>
+              Hi there and nice to meet you!
+            </p>
+            <p>
+              I am MUGIRASE Emmanuel from Gisenyi, Rwanda. I have worke in health sector as an assistant clinical anaesthetist since 2014 till 2020, where I was an assistant of anesthesiology head of department in Gisenyi Hospital, I have worked as team coordinator, and anesthesia services providing for the entire time I spent there. I worked as an english teacher in Muduha Primary school in 2011. After all of those works I shifted my career to software engineering which I dreamt for years, I started software engineering in 2017, where I learned Java, Javascript(NodeJS, React), Android, Web technologies.
+            </p>
+            <p>
+              I am confident enough to work on any health system app (desktop app, web app, entreprise app, or mobile app), I am an innovative man, who loves working with teams on daily basis.
+            </p>
+            <p>
+              I graduated from University of Rwanda in College of Medicine and Health sciences in 2014, and in 2016 I went to Kigali independent University to study computer sciences, when I grabbed the basics of programming I dropped out before graduating because I wanted to focus muore on software engineering in a professiona way. Now I am ready to bring solutions using programming.
+            </p>
+            <p>
+              Hard-working, focused, innovative, result-oriented, and growth mindset are the top four adjectives that best define my aptitude towards work.
+            </p>
+            <p>
+              Co-workers see me as a team player who gives his best in sharing ideas, as well as creating and designing innovative experiences.
+            </p>
+            <p>
+              Friends and family members see me as a nerd person, who invest most of his time for inventing new technology, and who will once move the world to the extend of changing people lifestyle.
+            </p>
+            <p>
+              Either of them you choose to be, go ahead and get in touch with me!
+            </p>
+          </div>
+          <div>
+            <img
+              alt="descholar-pic"
+              src={
+                Object {
+                  "process": [Function],
+                }
+              }
+            />
+          </div>
+        </article>
+        <article
+          className="technical-skills-article hidden-element"
+          id="technical-skills-article"
+        >
+          <div
+            className="technical-skills-container"
+          >
+            <div
+              className="technical-skills-container-head"
+            >
+              <h1>
+                My Technical skills
+              </h1>
+            </div>
+            <div
+              className="technical-skills-listing"
+            >
+              <section>
+                <div>
+                  <img
+                    alt="descholar's backend skills"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="card-mid-head"
+                >
+                  <h2>
+                    Backend
+                  </h2>
+                </div>
+                <div
+                  className="tech-skill"
+                >
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-node-progress skill-progress"
+                    >
+                      NodeJS / Express
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-java-progress skill-progress"
+                    >
+                      Java / Springboot
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-ruby-progress skill-progress"
+                    >
+                      Ruby
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div>
+                  <img
+                    alt="descholar's backend skills"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="card-mid-head"
+                >
+                  <h2>
+                    Frontend
+                  </h2>
+                </div>
+                <div
+                  className="tech-skill"
+                >
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-javascript-progress skill-progress"
+                    >
+                      Javascript / React
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-html-progress skill-progress"
+                    >
+                      HTML5 && CSS3
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div>
+                  <img
+                    alt="descholar's backend skills"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="card-mid-head"
+                >
+                  <h2>
+                    Mobile development
+                  </h2>
+                </div>
+                <div
+                  className="tech-skill"
+                >
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-android-progress skill-progress"
+                    >
+                      Android
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-react-native-progress skill-progress"
+                    >
+                      React native && Java
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div>
+                  <img
+                    alt="descholar's backend skills"
+                    src={
+                      Object {
+                        "process": [Function],
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="card-mid-head"
+                >
+                  <h2>
+                    Database
+                  </h2>
+                </div>
+                <div
+                  className="tech-skill"
+                >
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-postgresql-progress skill-progress"
+                    >
+                      PostgreSQL
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-mysql-progress skill-progress"
+                    >
+                      MySQL
+                    </div>
+                  </div>
+                  <div
+                    className="skill"
+                  >
+                    <div
+                      className="skill-sqlite-progress skill-progress"
+                    >
+                      SQLite
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+        <article
+          className="soft-skills-article hidden-element"
+          id="soft-skills-article"
+        >
+          <div
+            className="soft-skills-container"
+          >
+            <div
+              className="soft-skills-container-head"
+            >
+              <h1>
+                My soft skills
+              </h1>
+            </div>
+            <div
+              className="soft-skills-listing"
+            >
+              <section>
+                <div
+                  className="homepage-book"
+                >
+                  <div>
+                    <div
+                      className="homepage-book-cover"
+                    >
+                      <figure
+                        className="homepage-book-cover-front"
+                      >
+                        <div>
+                          <h3>
+                            Communication
+                          </h3>
+                          <h3>
+                            Teamworking
+                          </h3>
+                          <h3>
+                            Leadership
+                          </h3>
+                          <h3>
+                            Time management
+                          </h3>
+                        </div>
+                      </figure>
+                      <figure
+                        className="homepage-book-cover-back"
+                      >
+                        <div
+                          className="homepage-book-cover-back-text p-5"
+                        >
+                          <div
+                            id="what-nezarecruit-title"
+                          />
+                          <div
+                            id="what-nezarecruit"
+                          />
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div
+                    className="p-5"
+                  >
+                    <div
+                      id="why-nezarecruit-title"
+                    />
+                    <div
+                      id="why-nezarecruit"
+                    />
+                  </div>
+                  <div />
+                </div>
+              </section>
+              <section>
+                <div
+                  className="homepage-book"
+                >
+                  <div>
+                    <div
+                      className="homepage-book-cover"
+                    >
+                      <figure
+                        className="homepage-book-cover-front"
+                      >
+                        <div>
+                          <h3>
+                            Attention to details
+                          </h3>
+                          <h3>
+                            Problem solving
+                          </h3>
+                          <h3>
+                            Adaptability
+                          </h3>
+                          <h3>
+                            Work ethics
+                          </h3>
+                        </div>
+                      </figure>
+                      <figure
+                        className="homepage-book-cover-back"
+                      >
+                        <div
+                          className="homepage-book-cover-back-text p-5"
+                        >
+                          <div
+                            id="what-nezarecruit-title"
+                          />
+                          <div
+                            id="what-nezarecruit"
+                          />
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div
+                    className="p-5"
+                  >
+                    <div
+                      id="why-nezarecruit-title"
+                    />
+                    <div
+                      id="why-nezarecruit"
+                    />
+                  </div>
+                  <div />
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+        <article
+          className="projects-article hidden-element"
+          id="projects-article"
+        >
+          <div
+            className="projects-container"
+          >
+            <div
+              className="projects-container-head"
+            >
+              <h1>
+                My projects
+              </h1>
+            </div>
+            <div
+              className="projects-listing"
+            >
+              <section>
+                <div
+                  className="project-card"
+                >
+                  <h3>
+                    CityInfo
+                  </h3>
+                  <div
+                    className="project-bg-city-info"
+                  >
+                    <div
+                      className="project-specs"
+                    >
+                      <p>
+                        An open source project which helps searching any U.S. Cities or State
+                      </p>
+                    </div>
+                    <div
+                      className="project-card-links card-grid-two-links"
+                    >
+                      <a
+                        href="https://github.com/descholar-ceo/city-info"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Source codes
+                      </a>
+                      <a
+                        href="https://frosty-meitner-e44822.netlify.app/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Live link
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="project-card"
+                >
+                  <h3>
+                    AccommodationDirectory
+                  </h3>
+                  <div
+                    className="project-bg-accommodation"
+                  >
+                    <div
+                      className="project-specs"
+                    >
+                      <p>
+                        A capstone project after completing HTML5 && CSS3, for the design of patashule application
+                      </p>
+                    </div>
+                    <div
+                      className="project-card-links card-grid-two-links"
+                    >
+                      <a
+                        href="https://github.com/descholar-ceo/accommodations-directory"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Source codes
+                      </a>
+                      <a
+                        href="https://xenodochial-volhard-3da12d.netlify.app/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Live link
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="project-card"
+                >
+                  <h3>
+                    Phone History Store
+                  </h3>
+                  <div
+                    className="project-bg-ph-store"
+                  >
+                    <div
+                      className="project-specs"
+                    >
+                      <p>
+                        An android application for storing phone data, calls, and sms logs
+                      </p>
+                    </div>
+                    <div
+                      className="project-card-links card-grid-one-link"
+                    >
+                      <a
+                        href="https://apkcombo.com/phone-history-store-v7/com.scholar.emmanuel_de_scholar.phonehistorystore/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        See it and download apk from
+                         
+                        <strong>
+                          apkcombo
+                        </strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+        <article
+          className="contact-article hidden-element"
+          id="contact-article"
+        >
+          <div
+            className="contact-container"
+          >
+            <div
+              className="contact-container-head"
+            >
+              <h1>
+                I would like to hear from you
+              </h1>
+            </div>
+            <div
+              className="contact-listing"
+            >
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Call me or send me an sms
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's phone"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="tel:+250782229462"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                      />
+                    </svg>
+                     
+                    +250782229462
+                  </a>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Send me an email
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's phone"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="mailto:emmamugira@gmail.com"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7 1.3 3 4.1 4.8 7.3 4.8 66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32zM128.2 304H116c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h12.3c6 0 10.4-3.5 10.4-6.6 0-1.3-.8-2.7-2.1-3.8l-21.9-18.8c-8.5-7.2-13.3-17.5-13.3-28.1 0-21.3 19-38.6 42.4-38.6H156c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8h-12.3c-6 0-10.4 3.5-10.4 6.6 0 1.3.8 2.7 2.1 3.8l21.9 18.8c8.5 7.2 13.3 17.5 13.3 28.1.1 21.3-19 38.6-42.4 38.6zm191.8-8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-68.2l-24.8 55.8c-2.9 5.9-11.4 5.9-14.3 0L224 227.8V296c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8V192c0-8.8 7.2-16 16-16h16c6.1 0 11.6 3.4 14.3 8.8l17.7 35.4 17.7-35.4c2.7-5.4 8.3-8.8 14.3-8.8h16c8.8 0 16 7.2 16 16v104zm48.3 8H356c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h12.3c6 0 10.4-3.5 10.4-6.6 0-1.3-.8-2.7-2.1-3.8l-21.9-18.8c-8.5-7.2-13.3-17.5-13.3-28.1 0-21.3 19-38.6 42.4-38.6H396c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8h-12.3c-6 0-10.4 3.5-10.4 6.6 0 1.3.8 2.7 2.1 3.8l21.9 18.8c8.5 7.2 13.3 17.5 13.3 28.1.1 21.3-18.9 38.6-42.3 38.6z"
+                      />
+                    </svg>
+                     
+                    emmamugira@gmail.com
+                  </a>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Find me on GitHub
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's github"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="https://github.com/descholar-ceo"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 496 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      />
+                    </svg>
+                     
+                    descholar-ceo
+                  </a>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Find me on LinkedIn
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's phone"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/mugirase-emmanuel-a90b49143/"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 448 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                      />
+                    </svg>
+                     
+                    Mugirase Emmanuel
+                  </a>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Find me on Twitter
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's twitter"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="https://twitter.com/descholar3"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                      />
+                    </svg>
+                     
+                    descholar
+                  </a>
+                </div>
+              </section>
+              <section>
+                <div
+                  className="contact-card"
+                >
+                  <h1>
+                    Find me on Medium
+                  </h1>
+                  <div>
+                    <img
+                      alt="descholar's medium"
+                      src={
+                        Object {
+                          "process": [Function],
+                        }
+                      }
+                    />
+                  </div>
+                  <a
+                    href="https://medium.com/@emmamugira"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 448 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"
+                      />
+                    </svg>
+                     
+                    Mugirase Emmanuel
+                  </a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+</div>
+`;
