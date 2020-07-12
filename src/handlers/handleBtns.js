@@ -1,6 +1,7 @@
 // import { animateScroll as scroll } from 'react-scroll';
 
 export const handleAsideBtns = (component, event) => {
+  console.log('this is the state of passed component', component.state);
   const { id } = event.target;
   const {
     aboutMeArticle,
