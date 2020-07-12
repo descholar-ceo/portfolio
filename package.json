@@ -11,7 +11,9 @@
     "dev": "webpack-dev-server --env development --watch --open",
     "coverage": "codeclimate-test-reporter < ./coverage/lcov.info && codecov",
     "test": "jest",
-    "start": "npm run build && node ./src/entry/server.js"
+    "start": "npm run build && node ./src/entry/server.js",
+    "stylelint": "npx stylelint **/*.{css,scss}",
+    "stylelint-fix": "npx stylelint **/*.{css,scss} --fix"
   },
   "dependencies": {
     "@babel/core": "^7.10.2",
@@ -35,10 +37,15 @@
     "image-webpack-loader": "^6.0.0",
     "jest": "^26.0.1",
     "jest-html-reporters": "^1.2.1",
+    "jest-transform-stub": "^2.0.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-scroll": "^1.8.0",
     "react-test-renderer": "^16.13.1",
+    "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "typescript": "^3.9.5",
     "webpack": "^4.43.0",

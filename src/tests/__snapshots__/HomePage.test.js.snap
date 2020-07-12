@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App tests Will match the snapshot 1`] = `
+exports[`HomePage tests Will match the homepage snapshot 1`] = `
 <div
   className="portfolio-container"
 >

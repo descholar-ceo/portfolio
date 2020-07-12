@@ -7,6 +7,7 @@ module.exports = {
     '!src/entry/index.js',
     '!webpack.config.js',
     '!src/entry/server.js',
+    // '!src/handlers/**',
   ],
   coverageDirectory: 'coverage',
   coveragePathIgnorePatterns: ['/node_modules/', '/tests'],

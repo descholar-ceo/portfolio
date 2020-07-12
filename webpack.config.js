@@ -31,27 +31,13 @@ module.exports = (env) => ({
         loader: ['style-loader', 'css-loader'],
       },
       {
-        test: /.(jpg|jpeg|png|gif|svg)$/,
-        use: ['file-loader',
-          {
-            loader: 'image-webpack-loader',
-            options: {
-              mozjpeg: {
-                progressive: true,
-                quality: 65,
-              },
-              // optipng.enabled: false will disable optipng
-              optipng: { enabled: false },
-              pngquant: {
-                quality: '65-90',
-                speed: 4,
-              },
-              gifsicle: { interlaced: false },
-              // the webp option will enable WEBP
-              webp: { quality: 75 },
-            },
-          },
-        ],
+        test: /\.(scss)$/,
+        exclude: /node_modules/,
+        loader: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|jpg|svg|gif|jpeg)?$/,
+        use: 'file-loader',
       },
     ],
   },
