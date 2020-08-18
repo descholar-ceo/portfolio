@@ -19,12 +19,10 @@ import backendIcon from '../assets/img/backend-icon.jpg';
 import { handleAsideBtns } from '../handlers/handleBtns';
 
 class HomePage extends Component {
-  // handleStartBtn = handleStartBtn;
 
   constructor(props) {
     super(props);
     this.state = {};
-    // this.handleStartBtn = this.handleStartBtn.bind(this);
   }
 
   componentDidMount = () => {
@@ -52,14 +50,6 @@ class HomePage extends Component {
           <h1>{welcomeMessage}</h1>
           <h2>{myNames}</h2>
           <h3>{guideMsg}</h3>
-          {/* <button
-            className="start-btn"
-            onClick={this.handleStartBtn}
-            type="button"
-          >
-            Start
-
-          </button> */}
         </div>
         <div id="portfolio-navigation" className="portfolio-navigation">
           <nav className="top-nav">
@@ -67,15 +57,6 @@ class HomePage extends Component {
               <li><div className="close-btn" /></li>
               <li><div className="minimize-btn" /></li>
               <li><div className="maxmize-btn" /></li>
-            </ul>
-            <ul>
-              {/* <li>Home</li> */}
-              {/* <li>
-                <button type="button" className="nav-contact-btn" id="nav-contact-btn">
-                  Contact me
-                </button>
-              </li> */}
-              {/* <li>Settings</li> */}
             </ul>
           </nav>
           <main>
@@ -135,49 +116,27 @@ class HomePage extends Component {
                   </p>
 
                   <p>
-                    I am MUGIRASE Emmanuel from Gisenyi, Rwanda. I have worke in health sector
-                    as an assistant clinical anaesthetist since 2014 till 2020, where I was an
-                    assistant of anesthesiology head of department in Gisenyi Hospital, I have
-                    worked as team coordinator, and anesthesia services providing for the entire
-                    time I spent there. I worked as an english teacher in Muduha Primary school
-                    in 2011. After all of those works I shifted my career to software engineering
-                    which I dreamt for years, I started software engineering in 2017, where I
-                    learned Java, Javascript(NodeJS, React), Android, Web technologies.
+                   I am a full-stack software engineer with expertise in NodeJS, PostgreSQL, React, Ruby, Ruby on Rails, 
+                   Semantic HTML5, CSS3, Git, Agile methodology, Mobile applications, Technical Team Lead, and mentor.
                   </p>
-
                   <p>
-                    I am confident enough to work on any health system app (desktop app,
-                    web app, entreprise app, or mobile app), I am an innovative man,
-                    who loves working with teams on daily basis.
+                    I am currently open to full-stack development posts, for global products, startups, and many more.
                   </p>
-
                   <p>
-                    I graduated from University of Rwanda in College of Medicine
-                    and Health sciences in 2014, and in 2016 I went to Kigali independent
-                    University to study computer sciences, when I grabbed the basics of programming
-                    I dropped out before graduating because I wanted to focus muore on software
-                    engineering in a professiona way. Now I am ready to bring solutions using
-                    programming.
+                    Since I started my professional journey in 2014 as a health care provider, I realized that programming 
+                    had the potential to change our world through solving the most challenging, tiresome, and repetitive 
+                    work we do manually.
                   </p>
-
                   <p>
-                    Hard-working, focused, innovative, result-oriented, and growth mindset are
-                    the top four adjectives that best define my aptitude towards work.
+                    Being a technology enthusiast, I decided to dive deep in programming and developed an android application 
+                    that helps me keep track of my phone logs and SMS which encouraged me that programming is feasible. So I 
+                    joined the Andela stack up to master all of the needed technical and soft skills that professional software 
+                    engineers use in their daily life, and after that, I attended Microverse, an online coding school.
                   </p>
-
                   <p>
-                    Co-workers see me as a team player who gives his best in sharing ideas,
-                    as well as creating and designing innovative experiences.
-                  </p>
-
-                  <p>
-                    Friends and family members see me as a nerd person, who invest most of his
-                    time for inventing new technology, and who will once move the world to the
-                    extend of changing people lifestyle.
-                  </p>
-
-                  <p>
-                    Either of them you choose to be, go ahead and get in touch with me!
+                    Now, I can comfortably build solutions based on ideas, help engineering teams to escalate their productivity 
+                    by delivering the product before or on deadlines, help new businesses to grow their productivity by automating 
+                    their processes through qualified systems, mentor junior programmers.
                   </p>
 
                 </div>
@@ -322,9 +281,6 @@ class HomePage extends Component {
                         <div className="p-5">
                           <div id="why-nezarecruit-title" />
                           <div id="why-nezarecruit" />
-                        </div>
-                        <div>
-                          {/* <span className="text-danger">sorry</span> */}
                         </div>
                       </div>
                     </section>
