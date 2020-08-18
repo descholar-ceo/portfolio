@@ -19,12 +19,10 @@ import backendIcon from '../assets/img/backend-icon.jpg';
 import { handleAsideBtns } from '../handlers/handleBtns';
 
 class HomePage extends Component {
-  // handleStartBtn = handleStartBtn;
 
   constructor(props) {
     super(props);
     this.state = {};
-    // this.handleStartBtn = this.handleStartBtn.bind(this);
   }
 
   componentDidMount = () => {
@@ -52,14 +50,6 @@ class HomePage extends Component {
           <h1>{welcomeMessage}</h1>
           <h2>{myNames}</h2>
           <h3>{guideMsg}</h3>
-          {/* <button
-            className="start-btn"
-            onClick={this.handleStartBtn}
-            type="button"
-          >
-            Start
-
-          </button> */}
         </div>
         <div id="portfolio-navigation" className="portfolio-navigation">
           <nav className="top-nav">
@@ -67,15 +57,6 @@ class HomePage extends Component {
               <li><div className="close-btn" /></li>
               <li><div className="minimize-btn" /></li>
               <li><div className="maxmize-btn" /></li>
-            </ul>
-            <ul>
-              {/* <li>Home</li> */}
-              {/* <li>
-                <button type="button" className="nav-contact-btn" id="nav-contact-btn">
-                  Contact me
-                </button>
-              </li> */}
-              {/* <li>Settings</li> */}
             </ul>
           </nav>
           <main>
@@ -322,9 +303,6 @@ class HomePage extends Component {
                         <div className="p-5">
                           <div id="why-nezarecruit-title" />
                           <div id="why-nezarecruit" />
-                        </div>
-                        <div>
-                          {/* <span className="text-danger">sorry</span> */}
                         </div>
                       </div>
                     </section>
