@@ -1,23 +1,24 @@
 * {
-    font-family: sans-serif;
-    box-sizing: border-box;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
-nav{
+nav {
+  display: grid;
+
+  ul {
     display: grid;
-    ul {
-        display: grid;
-        place-items: center;
-    }
+    place-items: center;
+  }
 }
