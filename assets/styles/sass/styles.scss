@@ -33,8 +33,10 @@ select {
   width: 400px;
 }
 
-.accommodation-details {
-  box-shadow: 4px 4px 8px 8px $black-transparent;
+.project-screenshot {
+  height: 150px;
+  width: 250px;
+  position: relative;
 }
 
 @import 'utilities';

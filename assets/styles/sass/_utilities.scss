@@ -196,3 +196,7 @@ select {
 .hidden-md-sm {
   display: none;
 }
+
+.box-with-shadows {
+  box-shadow: 4px 4px 8px 8px $black-transparent;
+}
