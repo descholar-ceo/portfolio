@@ -19,11 +19,17 @@ body {
   overflow-x: hidden;
 }
 
-input,
-select {
+input {
   padding: 0.5rem;
   outline: none;
   border: none;
+  height: 40px;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
 }
 
 // results
