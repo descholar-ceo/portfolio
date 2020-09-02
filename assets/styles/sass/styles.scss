@@ -36,7 +36,11 @@ select {
 .project-screenshot {
   height: 150px;
   width: 250px;
-  position: relative;
+}
+
+.project-screenshot-phone {
+  height: 150px;
+  width: 150px;
 }
 
 @import 'utilities';
