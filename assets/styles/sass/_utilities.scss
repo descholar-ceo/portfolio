@@ -67,7 +67,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 // buttons
 %button {
   display: inline-block;
-  border: none;
   margin: 0.2rem;
   outline: none;
   padding: 0.5rem;
@@ -77,43 +76,65 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 .button-primary {
   @extend %button;
 
+  border: none;
   background-color: $primary-color;
 }
 
 .button-secondry {
   @extend %button;
 
+  border: none;
   background-color: $secondary-color;
 }
 
 .button-third {
   @extend %button;
 
+  border: none;
   background-color: $third-color;
 }
 
 .button-blue {
   @extend %button;
 
+  border: none;
   background-color: $blue-color;
 }
 
 .button-white {
   @extend %button;
 
+  border: none;
   background-color: $white-color;
 }
 
 .button-yellow {
   @extend %button;
 
+  border: none;
   background-color: $yellow-color;
 }
 
 .button-white-transparent {
   @extend %button;
 
+  border: none;
   background-color: $white-trasparent;
+}
+
+.button-primary-outline {
+  @extend %button;
+
+  border: 1px solid $primary-color;
+  background-color: $white-color;
+}
+
+.button-primary-outline:hover {
+  @extend %button;
+
+  border: 1px solid $primary-color;
+  background-color: $primary-color;
+  color: $white-color;
 }
 
 // backgrounds
