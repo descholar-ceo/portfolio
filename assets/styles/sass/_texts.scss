@@ -32,6 +32,10 @@
   font-size: 1rem;
 }
 
+.text-1-next {
+  font-size: 1.2rem;
+}
+
 .text-1-half {
   font-size: 1.5rem;
 }
@@ -48,9 +52,13 @@
   text-align: center;
 }
 .left-text {
-  text-align: center;
+  text-align: left;
 }
 
 .letter-spaced {
   letter-spacing: 0;
+}
+
+.line-1-half {
+  line-height: 1.5;
 }
