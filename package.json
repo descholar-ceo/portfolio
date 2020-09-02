@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "stylelint": "npx stylelint **/*.scss",
+    "stylelint-f": "npx stylelint **/*.scss --fix"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "stylelint": "^13.7.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "dependencies": {
+    "hint": "^6.1.0"
+  }
+}
