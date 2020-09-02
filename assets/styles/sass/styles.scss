@@ -1,7 +1,8 @@
+@import 'variables';
+
 * {
-  font-family: sans-serif;
   box-sizing: border-box;
-  list-style-type: none;
+  font-family: sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -10,15 +11,33 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-nav {
-  display: grid;
-
-  ul {
-    display: grid;
-    place-items: center;
-  }
+input,
+select {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
 }
+
+// results
+@mixin bg-specs {
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.accommodation-details {
+  box-shadow: 4px 4px 8px 8px $black-transparent;
+}
+
+@import 'utilities';
+@import 'texts';
+@import 'widths-heights';
+@import 'media-queries'
