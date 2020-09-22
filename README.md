@@ -6,8 +6,7 @@
 
 I made this project inorder to implement my personal portfolio to show my:
 * About me
-* Technical skills
-* Soft skills
+* Skills
 * Projects
 * Contact
 
@@ -15,17 +14,14 @@ I made this project inorder to implement my personal portfolio to show my:
 
 This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
 
-## Screenshot (s)
-![](/src/assets/img/portfolio-imgs/portfolio-screenshot.png)
+~~## Screenshot (s)~~
 
 ## Built with
-1. [ReactJS](https://reactjs.org/)
+1. HTML5
 1. [SASS](https://sass-lang.com/)
-1. [Webpack](https://webpack.js.org/)
 
 ## Deployments
-* Production link: [https://descholar.herokuapp.com/](https://descholar.herokuapp.com/)
-* Staging link: [https://descholar-portfolio.herokuapp.com/](https://descholar-portfolio.herokuapp.com/)
+* [My portofolio on netlify](https://descholar.netlify.app/)
 
 ## Acknowledgement (s)
 I got the inspiration of doing this portfolio from:
@@ -34,6 +30,6 @@ I got the inspiration of doing this portfolio from:
 ## Author (s)
 #### Mugirase Emmanuel (descholar)
 * Github : [descolar-ceo](https://github.com/descholar-ceo)
-* LinkedIn: [Mugirase Emmanuel](https://www.linkedin.com/in/mugirase-emmanuel-a90b49143/)
+* LinkedIn: [Mugirase Emmanuel](https://www.linkedin.com/in/mugirase-emmanuel/)
 * Twitter: [descholar](https://twitter.com/descholar3)
 * Medium: [Mugirase Emmanuel](https://www.medium.com/@emmamugira)
