@@ -75,6 +75,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-primary {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $primary-color;
@@ -82,6 +83,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-secondry {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $secondary-color;
@@ -89,6 +91,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-third {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $third-color;
@@ -96,6 +99,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-blue {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $blue-color;
@@ -103,6 +107,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-white {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $white-color;
@@ -110,6 +115,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-yellow {
   @extend %button;
+  @extend %rounded-corners-half;
 
   border: none;
   background-color: $yellow-color;
@@ -197,6 +203,11 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .rounded-corners-1 {
   border-radius: 1rem;
+}
+
+.rounded-corners-half,
+%rounded-corners-half {
+  border-radius: 0.5rem;
 }
 
 .border-radius-3,
