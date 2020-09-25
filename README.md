@@ -12,8 +12,6 @@ I made this project inorder to implement my personal portfolio to show my:
 
 This project is my portfolio, it shows all of the details regarding my professional experience and my contact information
 
-~~## Screenshot (s)~~
-
 ## Built with
 1. HTML5
 1. [SASS](https://sass-lang.com/)
