@@ -17,7 +17,7 @@ This project is my portfolio, it shows all of the details regarding my professio
 1. [SASS](https://sass-lang.com/)
 
 ## Deployments
-* [My portofolio on netlify](https://descholar.netlify.app/)
+* [My portofolio on netlify](https://descholar.netlify.app/)[![Netlify Status](https://api.netlify.com/api/v1/badges/8d6b0a59-ca54-4f3d-a1f8-9d4d71c3a6eb/deploy-status)](https://app.netlify.com/sites/descholar/deploys)
 
 ## Acknowledgement (s)
 I got the inspiration of doing this portfolio from:
