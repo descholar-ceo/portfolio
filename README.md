@@ -1,7 +1,5 @@
 # Portfolio
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/bac0788cb2075fe809e8/maintainability)](https://codeclimate.com/github/descholar-ceo/portfolio/maintainability)
-
 ## Project vision
 
 I made this project inorder to implement my personal portfolio to show my:
