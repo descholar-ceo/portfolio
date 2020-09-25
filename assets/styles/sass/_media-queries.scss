@@ -43,11 +43,16 @@
   .width-lg-50 {
     width: 50%;
   }
-  .width-lg-80 {
-    width: 80%;
+  .width-lg-70 {
+    width: 70%;
   }
   .text-1-lg-next{
     font-size: 2rem;
+  }
+  .col-lg-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
   }
   .col-lg-4 {
     display: grid;
