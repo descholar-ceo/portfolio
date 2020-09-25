@@ -1,11 +1,17 @@
 // medium screens
 @media screen and (min-width: 768px) {
-  .width-md-80 {
-    width: 80%;
+  .width-md-60 {
+    width: 60%;
   }
 
   .hidden-sm {
     display: inline-block;
+  }
+
+  .flex-md-horizontal-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
