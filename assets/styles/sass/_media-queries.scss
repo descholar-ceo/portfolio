@@ -54,8 +54,10 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .individual-lg-project{
-    height: 600px;
+    height: 500px;
     border: 1px solid $black-color;
     margin: 40px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 }
