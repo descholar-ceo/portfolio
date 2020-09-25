@@ -17,6 +17,11 @@
     flex-direction: row;
     justify-content: flex-end;
   }
+  .col-md-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
 }
 
 // lage screens
