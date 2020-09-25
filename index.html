@@ -12,26 +12,30 @@
 
 <body>
     <header class="primary-bg centered-h-v padding-y-1 padding-lg-half width-100">
-        <nav class="margin-y-1 centered-h-v width-100">
-            <ul class="flex-horizontal-center width-100 width-lg-90">
-                <li>
+        <nav class="margin-y-1 centered-h-v width-100 flex-md-horizontal-right">
+            <ul class="flex-horizontal-center width-100 width-md-60">
+                <li class="margin-x-1">
                     <a class="white-text" href="#home">
-                        <span class="margin-x-1">Home</span>
+                        <i class="fa fa-home hidden-sm" aria-hidden="true"></i>
+                        <span>Home</span>
                     </a>
                 </li>
-                <li>
+                <li class="margin-x-1">
                     <a class="white-text" href="#projects">
-                        <span class="margin-x-1">Projects</span>
+                        <i class="fa fa-briefcase hidden-sm" aria-hidden="true"></i>
+                        <span>Projects</span>
                     </a>
                 </li>
-                <li>
+                <li class="margin-x-1">
                     <a class="white-text" href="#about-me">
-                        <span class="margin-x-1">About</span>
+                        <i class="fa fa-meetup hidden-sm" aria-hidden="true"></i>
+                        <span>About</span>
                     </a>
                 </li>
-                <li>
+                <li class="margin-x-1">
                     <a class="white-text" href="#contact">
-                        <span class="margin-x-1">Contact</span>
+                        <i class="fa fa-address-card hidden-sm" aria-hidden="true"></i>
+                        <span>Contact</span>
                     </a>
                 </li>
             </ul>
@@ -47,25 +51,29 @@
                     and / or I can help you to add new features to your pre-existing software
                 </p>
             </div>
-            <div class="flex-space-between width-70 text-2">
-                <a href="https://github.com/descholar-ceo">
-                    <i class="fa fa-github primary-text" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/mugirase-emmanuel">
-                    <i class="fa fa-linkedin primary-text" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/descholar3">
-                    <i class="fa fa-twitter primary-text" aria-hidden="true"></i>
-                </a>
-                <a href="https://medium.com/@emmamugira">
-                    <i class="fa fa-medium primary-text" aria-hidden="true"></i>
-                </a>
+            <div class="width-100 flex-horizontal-center text-1-next ">
+                <p class="hidden-sm margin-x-3">Meet me on social networks</p>
+                <div class="flex-space-between width-60 width-md-30 text-2">
+                    <a href="https://github.com/descholar-ceo">
+                        <i class="fa fa-github primary-text" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mugirase-emmanuel">
+                        <i class="fa fa-linkedin primary-text" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/descholar3">
+                        <i class="fa fa-twitter primary-text" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://medium.com/@emmamugira">
+                        <i class="fa fa-medium primary-text" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
+            
         </section>
         <section id="projects" class="width-100 m-0 padding-y-1 centered-h-v">
             <h1 class="text-2 centered-text margin-y-1 width-90">My projects</h1>
-            <div class="margin-y-1 width-100 centered-h-v white-transparent-bg padding-1 rounded-corners-1">
-                <div class="width-100 box-with-shadows padding-1 margin-y-1">
+            <div class="col-md-6 margin-y-1 width-100 centered-h-v white-transparent-bg padding-1 rounded-corners-1">
+                <div class="width-100 box-with-shadows padding-1 width-md-90 margin-y-1">
                     <div class=" centered-h-v">
                         <h3 class="centered-text margin-y-1">Accommodation directory</h3>
                         <img class="project-screenshot" src="./assets/images/accomodation-directory.png"
@@ -78,7 +86,7 @@
                         <a href="./pages/accommodation-directory.html" class="centered-text button-secondry white-text width-100">More description</a>
                     </div>
                 </div>
-                <div class="width-100 box-with-shadows padding-1 margin-y-1">
+                <div class="width-100 box-with-shadows padding-1 width-md-90 margin-y-1">
                     <div class=" centered-h-v">
                         <h3 class="centered-text margin-y-1">Telegram chatbot</h3>
                         <img class="project-screenshot"
@@ -92,7 +100,7 @@
                         <a href="./pages/telegram-bot.html" class="button-secondry white-text width-100 centered-text">More description</a>
                     </div>
                 </div>
-                <div class="width-100 box-with-shadows padding-1 margin-y-1">
+                <div class="width-100 box-with-shadows padding-1 width-md-90 margin-y-1">
                     <div class=" centered-h-v">
                         <h3 class="centered-text margin-y-1">Boiler</h3>
                         <img class="project-screenshot" src="./assets/images/boiler.jpg"
@@ -105,7 +113,7 @@
                         <a href="pages/boiler.html" class="button-secondry white-text width-100 centered-text">More description</a>
                     </div>
                 </div>
-                <div class="box-with-shadows padding-1 margin-y-1 width-100">
+                <div class="box-with-shadows padding-1 width-md-90 margin-y-1 width-100">
                     <div class=" centered-h-v">
                         <h3 class="centered-text margin-y-1">Phone History Store</h3>
                         <img class="project-screenshot-phone" src="./assets/images/phone-history-store.png"
@@ -146,66 +154,60 @@
                 </a>
             </div>
         </section>
-        <section class="margin-y-1 width-100 m-0 centered-h-v">
-            <h4 class="left-text width-90">Programming languages:</h4>
+        <section class="margin-y-1 width-100 width-md-90 centered-md-horizontal centered-h-v col-md-4">
+            
             <div class="centered-h-v margin-y-1 width-100 white-transparent-bg">
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Ruby</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Javascript</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Golang</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Java</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Semantic HTML5</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">CSS3</button>
+                <h4 class="centered-text width-90 margin-y-1">Languages:</h4>
+                <p class="width-90 black-text centered-text">Golang</p>
+                <p class="width-90 black-text centered-text">Ruby</p>
+                <p class="width-90 black-text centered-text">Javascript</p>
+                <p class="width-90 black-text centered-text">HTML5 && CSS3</p>
+                <p class="width-90 black-text centered-text">Java</p>
             </div>
-            <h4 class="left-text width-90">Frameworks / Libraries:</h4>
+            
             <div class="centered-h-v margin-y-1 width-100 white-transparent-bg">
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Ruby on Rails</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Node/Express</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">React</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Springboot</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Bootstrap</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Bulma</button>
+                <h4 class="centered-text width-90 margin-y-1">Frameworks / Libraries:</h4>
+                <p class="width-90 black-text centered-text">Ruby on Rails</p>
+                <p class="width-90 black-text centered-text">Node/Express</p>
+                <p class="width-90 black-text centered-text">React</p>
+                <p class="width-90 black-text centered-text">Bootstrap</p>
+                <p class="width-90 black-text centered-text">Bulma</p>
             </div>
-            <h4 class="left-text width-90">Other tools / technologies I use:</h4>
+            
             <div class="centered-h-v margin-y-1 width-100 white-transparent-bg">
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Git</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Docker</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Pivotal
-                    tracker</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Github</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Gitlab</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Heroku</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Jest</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Mocha</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">TravisCI</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Coveralls</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Codecov</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Codeclimate</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">REST</button>
-                <button class="box-with-shadows width-90 button-primary-outline black-text" type="button">Microservices</button>
+                <h4 class="centered-text width-90 margin-y-1">Tools / technologies:</h4>
+                <p class="width-90 black-text centered-text">Git</p>
+                <p class="width-90 black-text centered-text">Heroku</p>
+                <p class="width-90 black-text centered-text">TravisCI</p>
+                <p class="width-90 black-text centered-text">REST</p>
+                <p class="width-90 black-text centered-text">Microservices</p>
             </div>
         </section>
         <section id="contact" class="primary-bg padding-y-1 padding-lg-half width-100 white-text">
             <h1 class="centered-text width-90">I would like to hear from you:</h1>
             <div class="flex-horizontal-center margin-y-1 width-100">
                 <form class="width-90">
-                    <div class="margin-y-1 width-100">
-                        <input
-                            disabled
-                            type="text" 
-                            name="full-name" 
-                            id="full-name" 
-                            placeholder="Full name"
-                            class="width-100 text-1-next"/>
+                    <div class="col-md-6">
+                        <div class="margin-y-1 width-100">
+                            <input
+                                disabled
+                                type="text" 
+                                name="full-name" 
+                                id="full-name" 
+                                placeholder="Full name"
+                                class="width-100 text-1-next"/>
+                        </div>
+                        <div class="margin-y-1 width-100">
+                            <input
+                                disabled
+                                type="email" 
+                                name="email-address" 
+                                id="email-address" 
+                                placeholder="Your email address"
+                                class="width-100 text-1-next"/>
+                        </div>
                     </div>
-                    <div class="margin-y-1 width-100">
-                        <input
-                            disabled
-                            type="email" 
-                            name="email-address" 
-                            id="email-address" 
-                            placeholder="Your email address"
-                            class="width-100 text-1-next"/>
-                    </div>
+                    
                     <div class="margin-y-1">
                         <textarea
                             disabled

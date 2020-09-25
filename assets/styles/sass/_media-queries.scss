@@ -1,117 +1,40 @@
 // medium screens
 @media screen and (min-width: 768px) {
-  .flex-md-row {
+  .width-md-90 {
+    width: 90%;
+  }
+
+  .width-md-60 {
+    width: 60%;
+  }
+
+  .width-md-30 {
+    width: 30%;
+  }
+
+  .hidden-sm {
+    display: inline-block;
+  }
+
+  .flex-md-horizontal-right {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
   }
 
-  .medium-text {
-    font-size: 0.9rem;
-  }
-
-  .search-section {
-    div {
-      width: 60%;
-    }
-
-    button {
-      width: fit-content;
-      display: grid;
-      place-items: center;
-    }
-  }
-
-  img[alt="Accommodation directory logo"] {
-    width: 40px;
-    height: 40px;
-  }
-
-  .services-container {
+  .col-md-6 {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    column-gap: 1rem;
-    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
   }
 
-  .more-accommodation {
-    display: flex;
-    flex-direction: row-reverse;
-
-    div {
-      text-align: left;
-    }
-  }
-
-  .before-footer {
+  .col-md-4 {
     display: grid;
-    grid-template: 1fr / repeat(3, 1fr);
-    place-items: center;
-    column-gap: 2rem;
-    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .subscribe-container {
-    width: 100%;
-
-    span {
-      padding: 0 0.2rem;
-    }
-  }
-
-  .filter-form {
-    display: grid;
-    grid-template: 1fr / repeat(4, 1fr) 1.5fr;
-    column-gap: 0.3rem;
-    place-items: center;
-    width: 100%;
-
-    label {
-      width: fit-content;
-    }
-
-    a {
-      height: 100%;
-      width: fit-content;
-    }
-
-    .clear-filter-btn {
-      min-width: 116px;
-    }
-  }
-
-  .result-listing {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-    column-gap: 0.5rem;
-    row-gap: 0.5rem;
-
-    .result-1,
-    .result-2,
-    .result-3,
-    .result-4,
-    .result-5,
-    .result-6 {
-      width: 100%;
-    }
-  }
-
-  img[alt="accommodation 5"] {
-    height: 100px;
-    width: 100px;
-  }
-
-  .details-display {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-    column-gap: 1rem;
-
-    p {
-      width: 100%;
-    }
-  }
-
-  .book-accom {
-    width: 100%;
+  .centered-md-horizontal {
+    margin: 0 auto;
   }
 }
 
