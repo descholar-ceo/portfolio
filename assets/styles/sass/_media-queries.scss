@@ -40,5 +40,14 @@
 
 // lage screens
 @media screen and (min-width: 1024px) {
-  
+  .width-lg-50 {
+    width: 50%;
+  }
+  .text-1-lg-next{
+    font-size: 2rem;
+  }
+  .col-lg-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
