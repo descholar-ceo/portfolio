@@ -1,5 +1,9 @@
 // medium screens
 @media screen and (min-width: 768px) {
+  .width-md-90 {
+    width: 90%;
+  }
+
   .width-md-60 {
     width: 60%;
   }
@@ -20,6 +24,7 @@
   .col-md-6{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 10px;
   }
 }
