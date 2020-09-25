@@ -40,34 +40,5 @@
 
 // lage screens
 @media screen and (min-width: 1024px) {
-  .hidden-md-sm {
-    display: inline-block;
-  }
-
-  .padding-lg-half {
-    padding: 0.2rem;
-  }
-
-  .width-lg-90 {
-    width: 90%;
-  }
-
-  .absolute-lg {
-    position: absolute;
-  }
-
-  .letter-spaced {
-    letter-spacing: 1rem;
-  }
-
-  .more-links {
-    display: grid;
-    grid-template: 1fr / repeat(9, 1fr);
-  }
-
-  .last-footer {
-    display: grid;
-    grid-template: 1fr / 1fr 3fr;
-    font-size: 0.8rem;
-  }
+  
 }
