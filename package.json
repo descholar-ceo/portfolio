@@ -4,7 +4,7 @@
   "scripts": {
     "hint": "npx hint .",
     "stylelint": "npx stylelint **/*.scss",
-    "stylelint-f": "npx stylelint **/*.{css,scss} --fix"
+    "stylelint-f": "npx stylelint **/*.scss --fix"
   },
   "version": "0.1.0",
   "devDependencies": {

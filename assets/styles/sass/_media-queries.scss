@@ -8,7 +8,7 @@
     width: 60%;
   }
 
-  .width-md-30{
+  .width-md-30 {
     width: 30%;
   }
 
@@ -21,15 +21,18 @@
     flex-direction: row;
     justify-content: flex-end;
   }
-  .col-md-6{
+
+  .col-md-6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
   }
-  .col-md-4{
+
+  .col-md-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .centered-md-horizontal {
     margin: 0 auto;
   }

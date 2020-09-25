@@ -10,6 +10,6 @@
       "dist/**",
       "**/reset*.css",
       "**/bootstrap*.css",
-      "/assets/styles/css/**.min.css"
+      "/assets/styles/css/**"
     ]
   }
