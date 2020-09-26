@@ -71,6 +71,11 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .flex-lg-horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
   .individual-lg-project {
     height: 500px;
     width: 900px;
