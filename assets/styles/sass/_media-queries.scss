@@ -16,6 +16,10 @@
     display: inline-block;
   }
 
+  .hidden-md{
+    display: none;
+  }
+
   .flex-md-horizontal-right {
     display: flex;
     flex-direction: row;
@@ -40,6 +44,9 @@
 
 // lage screens
 @media screen and (min-width: 1024px) {
+  .hidden-md{
+    display: block;
+  }
   .width-lg-50 {
     width: 50%;
   }
@@ -60,9 +67,34 @@
   }
   .individual-lg-project{
     height: 500px;
+    width: 900px;
     border: 1px solid $black-color;
-    margin: 40px auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+  .project-card-header{
+    background-color: $third-color;
+    height: 30px;
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    span{
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: $white-color;
+      margin-left: 10px;
+    }
   }
 }
