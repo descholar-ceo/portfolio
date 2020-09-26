@@ -113,14 +113,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $white-color;
 }
 
-.button-yellow {
-  @extend %button;
-  @extend %rounded-corners-half;
-
-  border: none;
-  background-color: $yellow-color;
-}
-
 .button-white-transparent {
   @extend %button;
 

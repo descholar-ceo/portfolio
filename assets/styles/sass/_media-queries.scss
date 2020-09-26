@@ -16,7 +16,7 @@
     display: inline-block;
   }
 
-  .hidden-md{
+  .hidden-md {
     display: none;
   }
 
@@ -44,28 +44,34 @@
 
 // lage screens
 @media screen and (min-width: 1024px) {
-  .hidden-md{
+  .hidden-md {
     display: block;
   }
+
   .width-lg-50 {
     width: 50%;
   }
+
   .width-lg-70 {
     width: 70%;
   }
-  .text-1-lg-next{
+
+  .text-1-lg-next {
     font-size: 2rem;
   }
+
   .col-lg-6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
   }
+
   .col-lg-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .individual-lg-project{
+
+  .individual-lg-project {
     height: 500px;
     width: 900px;
     border: 1px solid $black-color;
@@ -75,7 +81,8 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  .project-card-header{
+
+  .project-card-header {
     background-color: $greyish-color;
     height: 30px;
     width: 900px;
@@ -89,12 +96,24 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    span{
+
+    span {
       width: 20px;
       height: 20px;
       border-radius: 100%;
-      background-color: $white-color;
       margin-left: 10px;
+    }
+
+    .close-btn {
+      background-color: $red-color;
+    }
+
+    .restore-btn {
+      background-color: $orange-color;
+    }
+
+    .minimize-btn {
+      background-color: $green-color;
     }
   }
 }
