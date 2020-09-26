@@ -13,51 +13,66 @@
 </head>
 
 <body>
-    <header class="primary-bg centered-h-v padding-y-1 padding-lg-half width-100">
-        <nav class="margin-y-1 centered-h-v width-100">
-            <ul class="flex-horizontal-center width-100 width-lg-90">
-                <li>
+     <header class="primary-bg centered-h-v padding-y-1 padding-lg-half width-100">
+        <nav class="margin-y-1 centered-h-v width-100 flex-md-horizontal-right">
+            <ul class="flex-horizontal-center width-100 width-md-60">
+                <li class="margin-x-1">
                     <a class="white-text" href="../index.html#home">
-                        <span class="margin-x-1">Home</span>
+                        <i class="fa fa-home hidden-sm" aria-hidden="true"></i>
+                        <span>Home</span>
                     </a>
                 </li>
-                <li>
+                <li class="margin-x-1">
                     <a class="white-text" href="../index.html#projects">
-                        <span class="margin-x-1">Projects</span>
+                        <i class="fa fa-briefcase hidden-sm" aria-hidden="true"></i>
+                        <span>Projects</span>
                     </a>
                 </li>
-                <li>
-                    <a class="white-text" href="../index.html#about-me">
-                        <span class="margin-x-1">About</span>
+                <li class="margin-x-1">
+                    <a class="white-text" href="../index.html#about">
+                        <i class="fa fa-meetup hidden-sm" aria-hidden="true"></i>
+                        <span>About</span>
                     </a>
                 </li>
-                <li>
+                <li class="margin-x-1">
                     <a class="white-text" href="../index.html#contact">
-                        <span class="margin-x-1">Contact</span>
+                        <i class="fa fa-address-card hidden-sm" aria-hidden="true"></i>
+                        <span>Contact</span>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="main-page width-100 height-100">
-        <section class="centered-h-v padding-1">
-            <img class="project-screenshot rounded-corners-half" src="../assets/images/accomodation-directory.png"
-                alt="Accommodation directory" />
-
-            <h2>Accommodations Directory</h2>
-            <p>
-                This project was done for learning purpose, the aim was to create a customized content but same design 
-                of Patashule by Mathew Njuguna in order to master the HTML5 and CSS3 / SASS for UI/UX, and responsiveness. 
-                This project is a capstone from Microverse
-            </p>
-            <a href="https://xenodochial-volhard-3da12d.netlify.app/" class="button-secondry white-text width-100 centered-text">Live
-                demo</a>
-            <a href="https://github.com/descholar-ceo/accommodations-directory"
-                class="button-secondry white-text width-100 centered-text">
-                Source code
-                <i class="fa fa-github white-text" aria-hidden="true"></i>
-            </a>
-        </section>
+        <div>
+            <div class="hidden-md project-card-header">
+                <span class="close-btn"></span>
+                <span class="restore-btn"></span>
+                <span class="minimize-btn"></span>
+            </div>
+            <section class="centered-h-v padding-1 individual-lg-project centered-md-horizontal">
+                <img class="project-screenshot rounded-corners-half" src="../assets/images/accomodation-directory.png"
+                    alt="Accommodation directory" />
+    
+                <h2>Accommodations Directory</h2>
+                <p>
+                    This project was done for learning purpose, the aim was to create a customized content but same design 
+                    of Patashule by Mathew Njuguna in order to master the HTML5 and CSS3 / SASS for UI/UX, and responsiveness. 
+                    This project is a capstone from Microverse
+                </p>
+                <div class="width-100 col-lg-6 centered-h-v">
+                    <a 
+                href="https://xenodochial-volhard-3da12d.netlify.app/" 
+                class="button-secondry white-text width-90 centered-text margin-x-1">Live demo</a>
+                <a href="https://github.com/descholar-ceo/accommodations-directory"
+                    class="button-secondry white-text width-90 centered-text margin-x-1">
+                    Source code
+                    <i class="fa fa-github white-text" aria-hidden="true"></i>
+                </a>
+                </div>
+            </section>
+        </div>
+        
     </main>
     <footer>
         <section class="width-100 m-0 padding-y-1 centered-h-v black-bg">

@@ -14,33 +14,43 @@
 
 <body>
     <header class="primary-bg centered-h-v padding-y-1 padding-lg-half width-100">
-        <nav class="margin-y-1 centered-h-v width-100">
-            <ul class="flex-horizontal-center width-100 width-lg-90">
-                <li>
-                    <a class="white-text" href="../index.html#home">
-                        <span class="margin-x-1">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="white-text" href="../index.html#projects">
-                        <span class="margin-x-1">Projects</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="white-text" href="../index.html#about-me">
-                        <span class="margin-x-1">About</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="white-text" href="../index.html#contact">
-                        <span class="margin-x-1">Contact</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+       <nav class="margin-y-1 centered-h-v width-100 flex-md-horizontal-right">
+           <ul class="flex-horizontal-center width-100 width-md-60">
+               <li class="margin-x-1">
+                   <a class="white-text" href="../index.html#home">
+                       <i class="fa fa-home hidden-sm" aria-hidden="true"></i>
+                       <span>Home</span>
+                   </a>
+               </li>
+               <li class="margin-x-1">
+                   <a class="white-text" href="../index.html#projects">
+                       <i class="fa fa-briefcase hidden-sm" aria-hidden="true"></i>
+                       <span>Projects</span>
+                   </a>
+               </li>
+               <li class="margin-x-1">
+                   <a class="white-text" href="../index.html#about">
+                       <i class="fa fa-meetup hidden-sm" aria-hidden="true"></i>
+                       <span>About</span>
+                   </a>
+               </li>
+               <li class="margin-x-1">
+                   <a class="white-text" href="../index.html#contact">
+                       <i class="fa fa-address-card hidden-sm" aria-hidden="true"></i>
+                       <span>Contact</span>
+                   </a>
+               </li>
+           </ul>
+       </nav>
+   </header>
     <main class="main-page width-100 height-100">
-        <section class="centered-h-v padding-1">
+        <div>
+            <div class="hidden-md project-card-header">
+                <span class="close-btn"></span>
+                <span class="restore-btn"></span>
+                <span class="minimize-btn"></span>
+            </div>
+        <section class="centered-h-v padding-1 individual-lg-project centered-md-horizontal">
             <img class="project-screenshot rounded-corners-half" src="../assets/images/telegram-bot.jpg"
                 alt="Accommodation directory" />
 
@@ -51,14 +61,18 @@
                 Giving you statistics of COVID-19 (Corona virus), Giving you word of bravity,
                 Telling you programming quote, Telling you the current UTC date and time
             </p>
-            <a href="https://t.me/neza_connect_bot" class="button-secondry white-text width-100 centered-text">Live
-                demo</a>
-            <a href="https://github.com/descholar-ceo/telegram-bot"
-                class="button-secondry white-text width-100 centered-text">
-                Source code
-                <i class="fa fa-github white-text" aria-hidden="true"></i>
-            </a>
+            <div class="width-100 col-lg-6 centered-h-v">
+                <a href="https://t.me/neza_connect_bot" class="button-secondry white-text width-90 centered-text">Live
+                    demo</a>
+                <a href="https://github.com/descholar-ceo/telegram-bot"
+                    class="button-secondry white-text width-90 centered-text">
+                    Source code
+                    <i class="fa fa-github white-text" aria-hidden="true"></i>
+                </a>
+            </div>
+            
         </section>
+    </div>
     </main>
     <footer>
         <section class="width-100 m-0 padding-y-1 centered-h-v black-bg">

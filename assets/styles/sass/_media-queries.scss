@@ -16,6 +16,10 @@
     display: inline-block;
   }
 
+  .hidden-md {
+    display: none;
+  }
+
   .flex-md-horizontal-right {
     display: flex;
     flex-direction: row;
@@ -40,34 +44,86 @@
 
 // lage screens
 @media screen and (min-width: 1024px) {
-  .hidden-md-sm {
-    display: inline-block;
+  .hidden-md {
+    display: block;
   }
 
-  .padding-lg-half {
-    padding: 0.2rem;
+  .width-lg-50 {
+    width: 50%;
   }
 
-  .width-lg-90 {
-    width: 90%;
+  .width-lg-70 {
+    width: 70%;
   }
 
-  .absolute-lg {
-    position: absolute;
+  .text-1-lg-next {
+    font-size: 2rem;
   }
 
-  .letter-spaced {
-    letter-spacing: 1rem;
-  }
-
-  .more-links {
+  .col-lg-6 {
     display: grid;
-    grid-template: 1fr / repeat(9, 1fr);
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
   }
 
-  .last-footer {
+  .col-lg-4 {
     display: grid;
-    grid-template: 1fr / 1fr 3fr;
-    font-size: 0.8rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .flex-lg-horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ppic {
+    height: 100%;
+  }
+
+  .individual-lg-project {
+    height: 500px;
+    width: 900px;
+    background-color: $light-grey;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 4px 4px 8px 8px $third-transparent;
+  }
+
+  .project-card-header {
+    background-color: $greyish-color;
+    height: 30px;
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    span {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      margin-left: 10px;
+    }
+
+    .close-btn {
+      background-color: $red-color;
+    }
+
+    .restore-btn {
+      background-color: $orange-color;
+    }
+
+    .minimize-btn {
+      background-color: $green-color;
+    }
   }
 }
