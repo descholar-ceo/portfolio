@@ -97,14 +97,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $third-color;
 }
 
-.button-blue {
-  @extend %button;
-  @extend %rounded-corners-half;
-
-  border: none;
-  background-color: $blue-color;
-}
-
 .button-white {
   @extend %button;
   @extend %rounded-corners-half;
@@ -148,20 +140,12 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $third-color;
 }
 
-.blue-bg {
-  background-color: $blue-color;
-}
-
 .white-bg {
   background-color: $white-color;
 }
 
 .white-transparent-bg {
   background-color: $white-trasparent;
-}
-
-.primary-transparent-bg {
-  background-color: $primary-transparent;
 }
 
 .secondary-transparent-bg {
