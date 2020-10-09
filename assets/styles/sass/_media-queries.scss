@@ -66,6 +66,12 @@
     place-items: center;
   }
 
+  .col-lg-6-home {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    place-items: center;
+  }
+
   .col-lg-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
