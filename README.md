@@ -23,7 +23,7 @@ This project is my portfolio, it shows all of the details regarding my professio
 I got the inspiration of doing this portfolio from:
 [Microverse](https://www.microverse.org/)
 
-## Author (s)
+## Author
 #### Mugirase Emmanuel (descholar)
 * Github : [descolar-ceo](https://github.com/descholar-ceo)
 * LinkedIn: [Mugirase Emmanuel](https://www.linkedin.com/in/mugirase-emmanuel/)
